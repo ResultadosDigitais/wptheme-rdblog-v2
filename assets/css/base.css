@@ -21,7 +21,7 @@ input[type="text"], input[type="search"], input[type="email"] { padding: 9px; bo
 .a-left { text-align: left; }
 
 /* Header */
-#top-header { background-color: #FFF; }
+#top-header { background-color:#FFF; }
 #top-header .container { padding: 40px 0; }
 #top-header h1 { text-indent: -9999px; position: absolute; }
 #top-header #primary-nav { text-align: right; line-height: 3.5em; }
@@ -60,9 +60,9 @@ input[type="text"], input[type="search"], input[type="email"] { padding: 9px; bo
 #comments .comment { margin-bottom: 30px; }
 #comments .comment:last-child { margin-bottom: 0; }
 #comments .comment .children { margin-left: 65px; border-left: 1px solid #EAEAEA; padding-left: 10px; margin-top: 30px; }
-#comments .comment .comment-meta, #comments .comment p, #comments .comment .reply { margin-left: 65px; } 
+#comments .comment .comment-meta, #comments .comment p, #comments .comment .reply { margin-left: 65px; }
 #comments .comment cite { margin-left: 15px; }
-#comments .comment .comment-meta { background: #F8F8F8; padding: 2px 10px; display: inline-block; font-size: .8em; margin: 5px 15px 10px; } 
+#comments .comment .comment-meta { background: #F8F8F8; padding: 2px 10px; display: inline-block; font-size: .8em; margin: 5px 15px 10px; }
 #comments .comment .avatar { float: left; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
 #comments .comment-reply-link { text-transform: uppercase; text-decoration: none; padding: 5px 15px; display: inline-block; margin-top: 5px; border-radius: 2px; font-size: .8em; }
 #comments #cancel-comment-reply-link { font-size: .7em; float: right; }
