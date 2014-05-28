@@ -99,8 +99,8 @@
         </div>
         <div class="pure-u-1-3">
           <div class="l-box">
-            <h3>Assine nossos posts</h3>
             <?php if ( is_option_setted('webprofile_feedburner') ) { ?>
+              <h3>Assine nossos posts</h3>
               <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=<?php theme_webprofile_feedburner(); ?>', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
                 <p>
                   <input type="text" placeholder="Endereço de email" name="email"/>
