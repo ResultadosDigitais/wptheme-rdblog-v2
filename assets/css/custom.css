@@ -6,18 +6,18 @@ body {
   color: #4B4B4B;
   line-height: 1.7em;
 }
-h1, h2, h3, h4, a { color: #3f98b5; }
+h1, h2, h3, h4, a { color: #16a085; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { border-bottom: 2px solid #3f98b5; }
-#top-header #primary-nav ul li.current_page_item a { background-color: #3f98b5; color: #FFF; }
+#top-header #primary-nav ul li a { color: #d63a35; }
+#top-header #primary-nav ul li.current_page_item a { background-color: #d63a35; color: #FFF; }
 #top-header #primary-nav ul li a:hover { background-color: #EAEAEA; }
-#about-subscribe { background-color: #EAEAEA; }
-#about-subscribe h2 { color: #6B6B6B; }
-#headline { background: #3f98b5; }
+#about-subscribe { background-color: #d63a35; }
+#about-subscribe h2 { color: #FFF; font-family: orator; font-size: 1.5em; }
+#headline { background: #d63a35; }
 #headline h3 { color: #FFF; font-size: 1.5em; }
 
 /* Post */
@@ -36,15 +36,21 @@ h3 { font-size: 1.35em; }
 }
 .read-more {
   background-color: #EAEAEA;
-  color: #3f98b5;
+  color: #16a085;
 }
 .read-more:hover {
-  background-color: #3f98b5;
+  background-color: #16a085;
   color: #FFF;
 }
 
 /* Footer */
-footer #top-footer { background-color: #3f98b5; color: #FFF; }
+footer #top-footer {
+  background-color: #d63a35;
+  background-image: url("../images/personas03.png");
+  background-repeat: no-repeat;
+  background-position: right 100px bottom 10px;
+  color: #FFF;
+}
 footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #FFF; }
 footer #top-footer #social-icons li a:hover { color: #4B4B4B; }
 footer #bottom-footer { background-color: #27282C; color: #FFF; }
@@ -53,10 +59,17 @@ footer #bottom-footer { background-color: #27282C; color: #FFF; }
 #scroll-top a:hover,
 input[type="submit"],
 #comments .comment-reply-link {
-  background-color: #f5454a;
+  background-color: #16a085;
   color: #FFF;
 }
 input[type="submit"]:hover,
 #comments .comment-reply-link:hover {
-  background-color: #CC3C40;
+  background-color: #16a085;
 }
+
+/* Custom */
+@font-face { font-family: orator; src: url(../fonts/OratorStd.otf); }
+#top-header .container { padding: 25px 0; }
+#about-subscribe .container { padding: 55px 0; }
+#primary-nav { padding: 50px 0; }
+@media (max-width: 767px) { #primary-nav { padding: 0 !important; } }
