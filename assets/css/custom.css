@@ -6,18 +6,29 @@ body {
   color: #4B4B4B;
   line-height: 1.7em;
 }
-h1, h2, h3, h4, a { color: #3f98b5; }
+h1, h2, h3, h4, a { color: #6c96b8; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { border-bottom: 2px solid #3f98b5; }
-#top-header #primary-nav ul li.current_page_item a { background-color: #3f98b5; color: #FFF; }
+#top-header #primary-nav ul li.current_page_item a { background-color: #6c96b8; color: #FFF; }
 #top-header #primary-nav ul li a:hover { background-color: #EAEAEA; }
-#about-subscribe { background-color: #EAEAEA; }
-#about-subscribe h2 { color: #6B6B6B; }
-#headline { background: #3f98b5; }
+#about-subscribe {
+  background-color: #EAEAEA;
+  background-image: url(../images/birds.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 25px;
+}
+#about-subscribe h2 {
+  color: #949494;
+  font-size: 1.2em; 
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.33);
+  padding-right: 215px;
+}
+#headline { background: #6c96b8; }
 #headline h3 { color: #FFF; font-size: 1.5em; }
 
 /* Post */
@@ -36,27 +47,34 @@ h3 { font-size: 1.35em; }
 }
 .read-more {
   background-color: #EAEAEA;
-  color: #3f98b5;
+  color: #6c96b8;
 }
 .read-more:hover {
-  background-color: #3f98b5;
+  background-color: #6c96b8;
   color: #FFF;
 }
 
 /* Footer */
-footer #top-footer { background-color: #3f98b5; color: #FFF; }
-footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #FFF; }
+footer #top-footer { background-color: #6c96b8; color: #FFF; }
+footer #top-footer #social-icons li a, footer #top-footer h3, #top-footer a { color: #FFF; }
 footer #top-footer #social-icons li a:hover { color: #4B4B4B; }
-footer #bottom-footer { background-color: #27282C; color: #FFF; }
+footer #bottom-footer { background-color: #454547; color: #FFF; }
 
 /* Buttons */
 #scroll-top a:hover,
 input[type="submit"],
 #comments .comment-reply-link {
-  background-color: #f5454a;
+  background-color: #f26422;
   color: #FFF;
 }
 input[type="submit"]:hover,
 #comments .comment-reply-link:hover {
-  background-color: #CC3C40;
+  background-color: #D75D24;
+}
+
+/* Custom */
+#primary-nav { padding: 17px; }
+@media (max-width: 767px) {
+  #primary-nav { padding: 0 !important; }
+  #about-subscribe { background-image: none !important; }
 }
