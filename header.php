@@ -91,15 +91,15 @@
 
   <section id="about-subscribe">
     <div class="container">
-      <div class="pure-g-r">
-        <div class="pure-u-2-3">
-          <div class="l-box">
-            <h2><?php if ( is_option_setted('header_desc') ) { theme_header_desc(); } ?></h2>
+      <?php if ( is_option_setted('webprofile_feedburner') ) { ?>
+        <div class="pure-g-r">
+          <div class="pure-u-2-3">
+            <div class="l-box">
+              <h2><?php if ( is_option_setted('header_desc') ) { theme_header_desc(); } ?></h2>
+            </div>
           </div>
-        </div>
-        <div class="pure-u-1-3">
-          <div class="l-box">
-            <?php if ( is_option_setted('webprofile_feedburner') ) { ?>
+          <div class="pure-u-1-3">
+            <div class="l-box">
               <h3>Assine nossos posts</h3>
               <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=<?php theme_webprofile_feedburner(); ?>', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
                 <p>
@@ -108,10 +108,12 @@
                   <input type="hidden" value="<?php theme_webprofile_feedburner(); ?>" name="uri"/><input type="hidden" name="loc" value="pt_BR"/>
                 </p>
               </form>
-            <?php } ?>
+            </div>
           </div>
         </div>
-      </div>
+      <?php } else { ?>
+        <h2 style="text-align: center;"><?php if ( is_option_setted('header_desc') ) { theme_header_desc(); } ?></h2>
+      <?php } ?>
     </div>
   </section>
 
