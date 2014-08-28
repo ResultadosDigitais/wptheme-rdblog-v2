@@ -6,18 +6,17 @@ body {
   color: #4B4B4B;
   line-height: 1.7em;
 }
-h1, h2, h3, h4, a { color: #3f98b5; }
+h1, h2, h3, h4, a { color: #4a6485; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { border-bottom: 2px solid #3f98b5; }
-#top-header #primary-nav ul li.current_page_item a { background-color: #3f98b5; color: #FFF; }
+#top-header #primary-nav ul li.current_page_item a { background-color: #4a6485; color: #FFF; }
 #top-header #primary-nav ul li a:hover { background-color: #EAEAEA; }
-#about-subscribe { background-color: #EAEAEA; }
-#about-subscribe h2 { color: #6B6B6B; }
-#headline { background: #3f98b5; }
+#about-subscribe { background-color: #4a6485; }
+#about-subscribe h2 { color: #FFF; }
+#headline { background: #4a6485; }
 #headline h3 { color: #FFF; font-size: 1.5em; }
 
 /* Post */
@@ -36,15 +35,15 @@ h3 { font-size: 1.35em; }
 }
 .read-more {
   background-color: #EAEAEA;
-  color: #3f98b5;
+  color: #4a6485;
 }
 .read-more:hover {
-  background-color: #3f98b5;
+  background-color: #4a6485;
   color: #FFF;
 }
 
 /* Footer */
-footer #top-footer { background-color: #3f98b5; color: #FFF; }
+footer #top-footer { background-color: #4a6485; color: #FFF; }
 footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #FFF; }
 footer #top-footer #social-icons li a:hover { color: #4B4B4B; }
 footer #bottom-footer { background-color: #27282C; color: #FFF; }
@@ -60,3 +59,7 @@ input[type="submit"]:hover,
 #comments .comment-reply-link:hover {
   background-color: #CC3C40;
 }
+
+/* Custom */
+#primary-nav { margin: 20px 0; }
+@media (max-width: 767px) { #primary-nav { margin: 0 !important; } }
