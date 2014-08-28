@@ -15,6 +15,7 @@
   <?php } ?>
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
+  <link href="http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/assets/css/font-awesome.min.css" />
 
