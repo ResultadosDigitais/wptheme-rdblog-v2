@@ -28,13 +28,13 @@ function theme_options_do_page() {
       <?php settings_fields( 'rd-mkt_options' ); ?>
       <?php 
         $default_options = array(
-          'header_desc' => "<p>A Resultados Digitais é uma empresa especializada em <strong>Marketing Digital de resultado para Médias e Pequenas empresas</strong>.</p><p>Através de uma plataforma própria de software, o <a href='http://www.rdstation.com.br/' target='_blank'>RD Station</a>, e de serviços de consultoria, ajudamos nossos clientes a gerar mais e melhores visitas e oportunidades (Leads) para seus negócios e a construir um sólido ativo de Marketing Digital.</p><a href='http://resultadosdigitais.com.br/sobre/'>→ Clique aqui para conhecer mais</a>.",
-          'footer_desc' => "<p>A Resultados Digitais é uma empresa especializada em <strong>Marketing Digital de resultado para Médias e Pequenas empresas</strong>.</p><p>Através de uma plataforma própria de software, o <a href='http://www.rdstation.com.br/' target='_blank'>RD Station</a>, e de serviços de consultoria, ajudamos nossos clientes a gerar mais e melhores visitas e oportunidades (Leads) para seus negócios e a construir um sólido ativo de Marketing Digital.</p><a href='http://resultadosdigitais.com.br/sobre/'>→ Clique aqui para conhecer mais</a>.",
+          'header_desc' => '',
+          'footer_desc' => '',
           'logo_url' => get_bloginfo( 'stylesheet_directory' ) . '/assets/images/logo.png',
-          'webprofile_twitter' => 'ResDigitais',
-          'webprofile_facebook' => 'ResultadosDigitais',
+          'webprofile_twitter' => '',
+          'webprofile_facebook' => '',
           'webprofile_linkedin_id' => '',
-          'webprofile_feedburner' => 'ResDigitais',
+          'webprofile_feedburner' => '',
           'url_social_facebook' => '',
           'url_social_twitter' => '',
           'url_social_gplus' => '',
