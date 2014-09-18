@@ -2,15 +2,15 @@
   <div id="top-footer">
     <div class="container">
       <section id="dynamic-footer" class="pure-g-r">
-        <div class="pure-u-1-3">
+        <div class="pure-u-2-3">
           <div class="l-box">
-            <h3><?php bloginfo('name') ?></h3>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-footer.png" alt="logo enciclo" />
             <p>
               <?php if ( is_option_setted('footer_desc') ) { theme_footer_desc(); } ?>
             </p>
           </div>
         </div>
-        <div class="pure-u-2-3">
+        <div class="pure-u-1-3">
           <div id="social-icons" class="l-box">
             <ul>
               <?php if ( is_option_setted('url_social_facebook') ) { ?>

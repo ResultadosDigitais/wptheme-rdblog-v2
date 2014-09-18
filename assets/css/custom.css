@@ -1,6 +1,6 @@
 /* Base */
 body {
-  background-color: #f8f8fa;
+  background-color: #F4F3F3;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #4B4B4B;
@@ -12,9 +12,13 @@ h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
+#top-header { background-color: #F4F3F3; }
+#top-header .container { padding: 13px 0 0 !important }
+#top-header #primary-nav { margin-top: 20px; }
 #top-header #primary-nav ul li.current_page_item a { background-color: #557729; color: #FFF; }
 #top-header #primary-nav ul li a:hover { background-color: #EAEAEA; }
-#about-subscribe { background-color: #9ab268; }
+#about-subscribe { background-color: #557729; }
+#about-subscribe .container { padding: 20px 0; }
 #about-subscribe h2 { color: #FFF; }
 #headline { background: #9ab268; }
 #headline h3 { color: #FFF; font-size: 1.5em; }
@@ -40,6 +44,22 @@ h3 { font-size: 1.35em; }
 .read-more:hover {
   background-color: #557729;
   color: #FFF;
+}
+
+/* Sidebar */
+.sidebar-widget {
+  background-color: rgb(230, 244, 203);
+}
+.sidebar-widget h3 {
+  background-image: url(../images/sprite.png);
+  background-position: 0 -4px;
+  background-repeat: no-repeat;
+  min-height: 40px;
+  margin-left: -31px;
+  padding-left: 15px;
+  width: 278px;
+  color: #FFF;
+  font-size: 1em;
 }
 
 /* Footer */
