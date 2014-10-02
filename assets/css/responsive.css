@@ -1,6 +1,6 @@
-@media (max-width: 1117px) {
+@media (max-width: 1700px) {
   aside.social {
-    border-left: none !important;
+    border-right: none !important;
     padding: 10px !important;
     position: inherit !important;
     margin-left: 0 !important;

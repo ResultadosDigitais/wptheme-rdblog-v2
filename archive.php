@@ -2,7 +2,8 @@
 
 <div class="container">
   <div class="pure-g-r">
-    <div id="content" class="pure-u-2-3 loop-posts">
+    <?php get_sidebar(); ?>
+    <div id="content" class="pure-u-4-5 loop-posts">
       <?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
         <article class="blog-post white-container">
           <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
@@ -43,7 +44,6 @@
       <?php endif; ?>
 
     </div>
-    <?php get_sidebar(); ?>
   </div>
 </div>
 

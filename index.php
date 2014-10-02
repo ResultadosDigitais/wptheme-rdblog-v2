@@ -1,8 +1,28 @@
 <?php get_header(); ?>
 
+<div id="carousel" class="owl-carousel">
+  <?php $featured_posts = new WP_Query( 'category_name=featured' ); ?>
+  <?php while ( $featured_posts->have_posts() ) : $featured_posts->the_post(); ?>
+    <?php if (has_post_thumbnail( $post->ID ) ): ?>
+      <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
+      <div class="slide" style="background-image:url('<?php echo $image[0]; ?>');">
+    <?php else : ?>
+      <div class="slide">
+    <?php endif; ?>
+      <div class="about">
+        <h1><a href="<?php the_permalink(); ?>" alt="<?php the_title(); ?>"><?php the_title(); ?></a></h1>
+        <a href="<?php the_permalink(); ?>" class="btn" alt="<?php the_title(); ?>">Saiba mais</a>
+      </div>
+    </div>
+  <?php endwhile; ?>
+</div>
+
 <div class="container">
   <div class="pure-g-r">
-    <div id="content" class="pure-u-2-3 loop-posts">
+
+    <?php get_sidebar(); ?>
+
+    <div id="content" class="pure-u-4-5 loop-posts">
       <?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
         <article class="blog-post white-container">
           <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
@@ -43,7 +63,6 @@
       <?php endif; ?>
 
     </div>
-    <?php get_sidebar(); ?>
   </div>
 </div>
 

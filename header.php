@@ -18,8 +18,12 @@
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/assets/css/font-awesome.min.css" />
 
+  <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/assets/vendor/owl-carousel/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/assets/vendor/owl-carousel/owl.theme.css">
+
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-min.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/mexin.js"></script>
+  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/vendor/owl-carousel/owl.carousel.js"></script>
 </head>
 <body>
 
@@ -35,7 +39,11 @@
                   <img src="<?php theme_logo_url(); ?>" alt="<?php bloginfo('name'); ?>" />
                 </a>
               <?php } else { ?>
-                <h1><?php bloginfo('name'); ?></h1>
+                <h1>
+                  <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>">
+                    <?php bloginfo('name'); ?>
+                  </a>
+                </h1>
               <?php } ?>
             </hgroup>
           </div>
@@ -88,33 +96,5 @@
   </section>
 
 <?php } else { ?>
-
-  <section id="about-subscribe">
-    <div class="container">
-      <?php if ( is_option_setted('webprofile_feedburner') ) { ?>
-        <div class="pure-g-r">
-          <div class="pure-u-2-3">
-            <div class="l-box">
-              <h2><?php if ( is_option_setted('header_desc') ) { theme_header_desc(); } ?></h2>
-            </div>
-          </div>
-          <div class="pure-u-1-3">
-            <div class="l-box">
-              <h3>Assine nossos posts</h3>
-              <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=<?php theme_webprofile_feedburner(); ?>', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-                <p>
-                  <input type="text" placeholder="Endereço de email" name="email"/>
-                  <input type="submit" value="Enviar"/>
-                  <input type="hidden" value="<?php theme_webprofile_feedburner(); ?>" name="uri"/><input type="hidden" name="loc" value="pt_BR"/>
-                </p>
-              </form>
-            </div>
-          </div>
-        </div>
-      <?php } else { ?>
-        <h2 style="text-align: center;"><?php if ( is_option_setted('header_desc') ) { theme_header_desc(); } ?></h2>
-      <?php } ?>
-    </div>
-  </section>
 
 <?php } ?>
