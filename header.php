@@ -17,6 +17,7 @@
 
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/assets/css/font-awesome.min.css" />
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/assets/vendor/owl-carousel/owl.carousel.css">
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/assets/vendor/owl-carousel/owl.theme.css">

@@ -35,11 +35,13 @@ h3 { font-size: 1.35em; }
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#dddddd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   color: #6B6B6B;
 }
-.read-more {
+.read-more,
+.search-submit {
   background-color: #EAEAEA;
   color: #506E84;
 }
-.read-more:hover {
+.read-more:hover,
+.search-submit:hover {
   background-color: #506E84;
   color: #FFF;
 }
@@ -53,16 +55,27 @@ footer #bottom-footer { background-color: #27282C; color: #FFF; }
 /* Buttons */
 #scroll-top a:hover,
 input[type="submit"],
-#comments .comment-reply-link {
+#comments .comment-reply-link,
+.cta {
   background-color: #80D07F;
   color: #FFF;
 }
 input[type="submit"]:hover,
-#comments .comment-reply-link:hover {
+#comments .comment-reply-link:hover
+.cta:hover {
   background-color: #6DC96C;
 }
 
 /* Custom */
+.btn {
+  -webkit-appearance: none;
+  border: none;
+  padding: 10px 15px;
+  margin: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
 #top-header { background-color: #27282C; }
 #top-header .container { padding: 0; }
 #top-header h1 {
@@ -95,10 +108,6 @@ input[type="submit"]:hover,
   background-size: cover;
   background-repeat: no-repeat;
   padding: 120px 0;
-  height: 370px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
 }
 #carousel .slide .about {
   background-image: url('../images/dots.png');

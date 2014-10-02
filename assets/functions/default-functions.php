@@ -11,7 +11,7 @@ add_filter('pre_get_posts','exclude_pages_from_search');
 
 //Excerpt Length
 function custom_excerpt_length( $length ) {
-  return 60;
+  return 30;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
