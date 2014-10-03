@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div id="carousel" class="owl-carousel">
-  <?php $featured_posts = new WP_Query( 'category_name=featured' ); ?>
+  <?php $featured_posts = new WP_Query( 'category_name=featured&posts_per_page=3' ); ?>
   <?php while ( $featured_posts->have_posts() ) : $featured_posts->the_post(); ?>
     <?php if (has_post_thumbnail( $post->ID ) ): ?>
       <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>

@@ -14,7 +14,8 @@ jQuery(document).ready(function(){
   });
 
   $("#carousel").owlCarousel({
-      slideSpeed : 300,
+      autoPlay : 8000,
+      slideSpeed : 900,
       paginationSpeed : 400,
       singleItem: true
   });

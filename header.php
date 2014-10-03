@@ -28,6 +28,12 @@
 </head>
 <body>
 
+<div id="rd-bar">
+  <div class="rd-container">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Resultados Digitais" />
+  </div>
+</div>
+
 <div id="main">
   <header id="top-header">
     <div class="container">

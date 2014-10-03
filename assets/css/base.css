@@ -37,7 +37,7 @@ input[type="text"], input[type="search"], input[type="email"] { padding: 9px; bo
 /* Blog Post */
 .blog-post, .sidebar-widget { margin-bottom: 20px; }
 .blog-post .social { top: 445px; background: #FFF; border-left: 1px solid #EAEAEA; padding: 10px; position: absolute; border-top-left-radius: 3px; margin-left: -90px; border-bottom-left-radius: 3px; }
-.blog-post h3 { font-family: 'Open Sans', sans-serif; margin-bottom: 15px; line-height: 1.5em; font-size: 2em; text-transform: uppercase; }
+.blog-post h3 { font-family: 'Open Sans', sans-serif; margin-bottom: 15px; line-height: 1.5em; font-size: 2em; }
 .blog-post h3 a { text-decoration: none; }
 .blog-post h3 a:hover { text-decoration: underline; }
 .blog-post .wp-post-image { margin-bottom: 15px; }

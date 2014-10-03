@@ -13,13 +13,13 @@ h3 { font-size: 1.35em; }
 
 /* Header */
 #top-header #primary-nav ul li a { color: #FFF; }
-#top-header #primary-nav ul li.current_page_item a { background-color: #F8F8FA; color: #35739F; }
+#top-header #primary-nav ul li.current_page_item a { background-color: #35739F; }
 #top-header #primary-nav ul li.current_page_item a:hover { color: #FFF; }
 #top-header #primary-nav ul li a:hover { background-color: #3181ae; }
 #about-subscribe { background-color: #EAEAEA; }
 #about-subscribe h2 { color: #6B6B6B; }
-#headline { background: #506E84; }
-#headline h3 { color: #FFF; font-size: 1.5em; }
+#headline .container { padding: 40px 0 10px; }
+#headline h3 { font-family: 'Open Sans', sans-serif; font-size: 1.7em; }
 
 /* Post */
 .blog-post .post-meta { color: #AAA; }
@@ -48,6 +48,7 @@ h3 { font-size: 1.35em; }
 
 /* Footer */
 footer #top-footer { background-color: #506E84; color: #FFF; }
+footer #top-footer h3 { font-family: 'Open Sans', sans-serif; font-weight: normal; }
 footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #FFF; }
 footer #top-footer #social-icons li a:hover { color: #4B4B4B; }
 footer #bottom-footer { background-color: #27282C; color: #FFF; }
@@ -77,28 +78,23 @@ input[type="submit"]:hover,
   text-transform: uppercase;
 }
 #top-header { background-color: #27282C; }
-#top-header .container { padding: 0; }
+#top-header .container { padding: 30px 0; }
 #top-header h1 {
-  font-size: 1em;
-  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8em;
   text-indent: 0px;
   padding: 14px 0;
   position: inherit;
 }
 #top-header h1 a {
-  background-color: #3181AE;
   color: #FFF;
   text-decoration: none;
-  padding: 20px;
   -webkit-transition: all ease-in-out .2s;
   -moz-transition: all ease-in-out .2s;
   transition: all ease-in-out .2s;
 }
-#top-header h1 a:hover { background: #F8F8FA; color: #3181AE; }
+#top-header h1 a:hover { color: #3181AE; }
 #top-header #primary-nav ul li a {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
   font-size: .9em;
   padding: 20px;
 }
@@ -117,6 +113,7 @@ input[type="submit"]:hover,
   text-align: center;
 }
 #carousel .slide .about h1 a {
+  font-family: 'Open Sans', sans-serif;
   color: #D0D0D0;
   line-height: 1.3em;
   text-decoration: none;
@@ -161,6 +158,8 @@ input[type="submit"]:hover,
   margin-left: 0;
   position: fixed;
 }
+#rd-bar { background-color: #F5F5F5; }
+.rd-container { width: 1500px; margin: 0 auto; padding: 13px 0 3px; }
 
 /* Custom Responsive */
 @media (max-width: 930px) {
