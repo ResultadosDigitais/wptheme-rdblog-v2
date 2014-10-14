@@ -23,6 +23,7 @@
             </span>
           </div>
           <p><?php the_content(); ?></p>
+          <?php echo get_post_meta($post->ID, 'banner-cta', true) ?>
           <?php include (TEMPLATEPATH . '/social.php'); ?>
         </article>
         <?php if ( comments_open() || get_comments_number() ) { comments_template(); } ?>
