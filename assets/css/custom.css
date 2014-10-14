@@ -148,10 +148,11 @@ input[type="submit"]:hover,
   -webkit-column-break-inside: avoid;
   -moz-column-break-inside: avoid;
   column-break-inside: avoid;
-  display: inline-block;
+  overflow: hidden;
 }
 .loop-posts .blog-post img{
   max-width: 530px;
+  width: 100%;
 }
 .single-post .blog-post > img {
   max-width: 450px;
@@ -167,7 +168,8 @@ input[type="submit"]:hover,
   position: fixed;
 }
 #rd-bar { background-color: #F5F5F5; }
-.rd-container { width: 1500px; margin: 0 auto; padding: 13px 0 3px; }
+.rd-container { width: 100%; margin: 0 auto; padding: 13px 0 3px; }
+.rd-container .container { padding: 0; }
 
 /* Custom Responsive */
 @media (max-width: 930px) {

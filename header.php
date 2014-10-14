@@ -30,9 +30,11 @@
 
 <div id="rd-bar">
   <div class="rd-container">
-    <a href="http://resultadosdigitais.com.br" title="Resultados Digitais" target="_blank">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Resultados Digitais" />
-    </a>
+    <div class="container">
+      <a href="http://resultadosdigitais.com.br" title="Resultados Digitais" target="_blank">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="Resultados Digitais" />
+      </a>
+    </div>
   </div>
 </div>
 
