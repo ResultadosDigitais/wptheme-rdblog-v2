@@ -170,6 +170,14 @@ input[type="submit"]:hover,
 #rd-bar { background-color: #F5F5F5; }
 .rd-container { width: 100%; margin: 0 auto; padding: 13px 0 3px; }
 .rd-container .container { padding: 0; }
+#feedburner-form input[type="text"],
+#feedburner-form input[type="submit"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+#feedburner-form input[type="text"] { margin-bottom: 10px; }
 
 /* Custom Responsive */
 @media (max-width: 930px) {
