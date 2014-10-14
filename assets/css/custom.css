@@ -150,6 +150,9 @@ input[type="submit"]:hover,
   column-break-inside: avoid;
   display: inline-block;
 }
+.loop-posts .blog-post img{
+  max-width: 530px;
+}
 .blog-post .social {
   border-right: 1px solid #EAEAEA;
   border-left: 0;
