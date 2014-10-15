@@ -110,7 +110,7 @@ input[type="submit"]:hover,
   padding: 20px;
 }
 #carousel .slide .about .container {
-  padding: 0;
+  padding: 0 15px;
 }
 #carousel .slide .about h1 a {
   font-family: 'Open Sans', sans-serif;
@@ -143,13 +143,16 @@ input[type="submit"]:hover,
   -webkit-column-width: 50%;
   column-width: 50%;
 }
-.loop-posts .blog-post{
+.loop-posts .blog-post {
   -webkit-column-break-inside: avoid;
   -moz-column-break-inside: avoid;
   column-break-inside: avoid;
   overflow: hidden;
 }
-.loop-posts .blog-post img{
+.loop-posts .blog-post h3 {
+  font-size: 1.5em;
+}
+.loop-posts .blog-post img {
   max-width: 530px;
   width: 100%;
 }

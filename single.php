@@ -17,14 +17,16 @@
               <i class="fa fa-calendar"></i>
               <?php the_time('d/m/Y') ?>
             </span>
+          </div>
+          <?php include (TEMPLATEPATH . '/social.php'); ?>
+          <p><?php the_content(); ?></p>
+          <?php echo get_post_meta($post->ID, 'banner-cta', true) ?>
+          <div class="post-meta" style="margin: 0;">
             <span class="category">
               <i class="fa fa-folder-open"></i>
               <?php the_category(', ') ?>
             </span>
           </div>
-          <?php include (TEMPLATEPATH . '/social.php'); ?>
-          <p><?php the_content(); ?></p>
-          <?php echo get_post_meta($post->ID, 'banner-cta', true) ?>
         </article>
         <?php if ( comments_open() || get_comments_number() ) { comments_template(); } ?>
       <?php endwhile; else : ?>
