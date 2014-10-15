@@ -106,7 +106,7 @@ input[type="submit"]:hover,
   padding: 240px 0 0;
 }
 #carousel .slide .about {
-  background: rgba(0, 0, 0, 0.54);
+  background: rgba(0, 0, 0, 0.70);
   padding: 20px;
 }
 #carousel .slide .about .container {
@@ -181,6 +181,11 @@ input[type="submit"]:hover,
   width: 100%;
 }
 #feedburner-form input[type="text"] { margin-bottom: 10px; }
+#sidebar li > ul li {
+  list-style: initial;
+  list-style-position: inside;
+  font-size: 1em;
+}
 
 /* Custom Responsive */
 @media (max-width: 930px) {
