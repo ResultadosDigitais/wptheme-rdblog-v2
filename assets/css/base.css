@@ -12,7 +12,7 @@ input[type="text"], input[type="search"], input[type="email"] { padding: 9px; bo
 
 /* Structure */
 #content { padding-right: 20px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-.container { max-width: 1170px; margin: 0 auto; padding: 20px 0; }
+.container { max-width: 1170px; margin: 0 auto; padding: 20px 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 .white-container { background: #FFF; border: 1px solid #EAEAEA; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; padding: 25px; }
 .l-box { padding: 0 10px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 .d-block { display: block; }
@@ -74,7 +74,7 @@ input[type="text"], input[type="search"], input[type="email"] { padding: 9px; bo
 /* Footer */
 footer #top-footer { padding: 50px 0; }
 footer #top-footer h3 { font-weight: bold; }
-footer #bottom-footer .container { padding: 20px 0; }
+footer #bottom-footer .container { padding: 20px 15px; }
 footer .copyright { font-size: .8em; text-align: left; margin: 0; }
 footer #social-icons { text-align: right; }
 footer #social-icons li { display: inline-block; }

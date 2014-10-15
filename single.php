@@ -3,7 +3,7 @@
 <div class="container">
   <div class="pure-g-r">
     <?php get_sidebar(); ?>
-    <div id="content" class="pure-u-4-5 single-post">
+    <div id="content" class="pure-u-17-24 single-post">
       <?php if (have_posts()) : while(have_posts()) : the_post(); ?>
         <article class="blog-post white-container">
           <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
@@ -22,9 +22,9 @@
               <?php the_category(', ') ?>
             </span>
           </div>
+          <?php include (TEMPLATEPATH . '/social.php'); ?>
           <p><?php the_content(); ?></p>
           <?php echo get_post_meta($post->ID, 'banner-cta', true) ?>
-          <?php include (TEMPLATEPATH . '/social.php'); ?>
         </article>
         <?php if ( comments_open() || get_comments_number() ) { comments_template(); } ?>
       <?php endwhile; else : ?>

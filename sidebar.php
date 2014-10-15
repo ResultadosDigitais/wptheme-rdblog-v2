@@ -1,11 +1,10 @@
-<div id="sidebar" class="pure-u-1-5">
+<div id="sidebar" class="pure-u-7-24">
   <?php if ( is_option_setted('webprofile_feedburner') ) { ?>
     <div class="white-container sidebar-widget">
-      <h3>Assine nossos posts</h3>
       <form id="feedburner-form" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=<?php theme_webprofile_feedburner(); ?>', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
         <p>
           <input type="text" placeholder="Seu Email" name="email"/>
-          <input type="submit" value="Assinar"/>
+          <input type="submit" value="Assine nossos posts"/>
           <input type="hidden" value="<?php theme_webprofile_feedburner(); ?>" name="uri"/><input type="hidden" name="loc" value="pt_BR"/>
         </p>
       </form>

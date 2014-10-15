@@ -3,7 +3,7 @@
 <div class="container">
   <div class="pure-g-r">
     <?php get_sidebar(); ?>
-    <div id="content" class="pure-u-4-5 loop-posts">
+    <div id="content" class="pure-u-17-24 loop-posts">
       <?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
         <article class="blog-post white-container">
           <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>

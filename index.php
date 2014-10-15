@@ -10,8 +10,10 @@
       <div class="slide">
     <?php endif; ?>
       <div class="about">
-        <h1><a href="<?php the_permalink(); ?>" alt="<?php the_title(); ?>"><?php the_title(); ?></a></h1>
-        <a href="<?php the_permalink(); ?>" class="btn" alt="<?php the_title(); ?>">Saiba mais</a>
+        <div class="container">
+          <h1><a href="<?php the_permalink(); ?>" alt="<?php the_title(); ?>"><?php the_title(); ?></a></h1>
+          <a href="<?php the_permalink(); ?>" class="btn" alt="<?php the_title(); ?>">Saiba mais</a>
+        </div>
       </div>
     </div>
   <?php endwhile; ?>
@@ -22,7 +24,7 @@
 
     <?php get_sidebar(); ?>
 
-    <div id="content" class="pure-u-4-5 loop-posts">
+    <div id="content" class="pure-u-17-24 loop-posts">
       <?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
         <article class="blog-post white-container">
           <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
