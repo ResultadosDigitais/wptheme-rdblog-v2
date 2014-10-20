@@ -7,16 +7,16 @@ body {
   line-height: 1.7em;
 }
 h1, h2, h3, h4 { color: #4B4B4B; }
-a { color: #C21502; }
+a { color: #b11116; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { border-bottom: 2px solid #000; }
-#top-header #primary-nav ul li.current_page_item a { background-color: #C21502; color: #FFF; }
-#top-header #primary-nav ul li a:hover { background-color: #919191; }
-#about-subscribe { background-color: #555; }
+#top-header { border-bottom: 2px solid #b11116; }
+#top-header #primary-nav ul li.current_page_item a { background-color: #b11116; color: #FFF; }
+#top-header #primary-nav ul li a:hover { background-color: #c2b59b; }
+#about-subscribe { background-color: #c2b59b; }
 #about-subscribe h2 { color: #fff; }
 #headline { background: #3f98b5; }
 #headline h3 { color: #FFF; font-size: 1.5em; }
@@ -37,27 +37,27 @@ h3 { font-size: 1.35em; }
 }
 .read-more {
   background-color: #EAEAEA;
-  color: #C21502;
+  color: #b11116;
 }
 .read-more:hover {
-  background-color: #C21502;
+  background-color: #b11116;
   color: #fff;
 }
 
 /* Footer */
-footer #top-footer { background-color: #555; color: #FFF; }
+footer #top-footer { background-color: #aa9f88; color: #FFF; }
 footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #FFF; }
-footer #top-footer #social-icons li a:hover { color: #C21502; }
+footer #top-footer #social-icons li a:hover { color: #b11116; }
 footer #bottom-footer { background-color: #27282C; color: #FFF; }
 
 /* Buttons */
 #scroll-top a:hover,
 input[type="submit"],
 #comments .comment-reply-link {
-  background-color: #C21502;
+  background-color: #b11116;
   color: #FFF;
 }
 input[type="submit"]:hover,
 #comments .comment-reply-link:hover {
-  background-color: #919191;
+  background-color: #c2b59b;
 }
