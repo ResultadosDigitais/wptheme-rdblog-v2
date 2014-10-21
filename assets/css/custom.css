@@ -158,7 +158,7 @@ input[type="submit"]:hover,
 }
 .single-post .blog-post { overflow: hidden; }
 .single-post .blog-post > img {
-  max-width: 450px;
+  max-width: 320px;
   float: left;
   margin: 0 20px 20px 0;
 }
