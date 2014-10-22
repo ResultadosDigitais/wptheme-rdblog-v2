@@ -22,10 +22,6 @@
                   <i class="fa fa-calendar"></i>
                   <?php the_time('d/m/Y') ?>
                 </span>
-                <span class="category">
-                  <i class="fa fa-folder-open"></i>
-                  <?php the_category(', ') ?>
-                </span>
               </div>
             </div>
             <div class="pure-u-1-3">
