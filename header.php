@@ -42,7 +42,7 @@
   <header id="top-header">
     <div class="container">
       <div class="pure-g-r">
-        <div class="pure-u-1-3">
+        <div class="pure-u-3-5">
           <div class="l-box">
             <hgroup>
               <?php if ( is_option_setted('logo_url') ) { ?>
@@ -60,7 +60,7 @@
           </div>
         </div>
 
-        <div class="pure-u-2-3">
+        <div class="pure-u-2-5">
           <div class="l-box">
             <nav id="primary-nav">
               <?php wp_nav_menu( array(
