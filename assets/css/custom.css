@@ -186,7 +186,7 @@ aside.social {
   margin-left: 0 !important;
   top: inherit !important;
 }
-aside.social p { display: inline-block; margin-right: 10px; }
+.social-media { display: inline-block !important; margin-right: 20px !important; vertical-align: top !important; }
 #comments .comment-form input, #comments .comment-form textarea { width: 98% !important; }
 
 /* Custom Responsive */

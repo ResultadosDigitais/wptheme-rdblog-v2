@@ -28,21 +28,21 @@ add_action( 'wp_footer', 'gplusone_script' );
 
 function btn_vert_tweet() {
   global $post;
-  echo '<p><a href="http://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="vertical" data-url="' . get_permalink($post->ID) . '" data-text="' . get_the_title($post->ID) . '" data-via="' . theme_webprofile_twitter(false) . '">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>';
+  echo '<a href="http://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="vertical" data-url="' . get_permalink($post->ID) . '" data-text="' . get_the_title($post->ID) . '" data-via="' . theme_webprofile_twitter(false) . '">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>';
 }
 
 function btn_vert_fblike() {
   global $post;
-  echo '<p><div class="fb-like" data-send="false" data-href="' . get_permalink($post->ID) . '" data-layout="box_count" data-width="55" data-show-faces="false"></div></p>';
+  echo '<div class="fb-like" data-send="false" data-href="' . get_permalink($post->ID) . '" data-layout="box_count" data-width="55" data-show-faces="false"></div>';
 }
 
 function btn_vert_gplusone() {
   global $post;
-  echo '<p><div class="g-plusone" data-size="tall" data-href="' . get_permalink($post->ID) . '"></div></p>';
+  echo '<div class="g-plusone" data-size="tall" data-href="' . get_permalink($post->ID) . '"></div>';
 }
 
 function btn_vert_linkedin() {
   global $post;
-  echo '<p><script src="http://platform.linkedin.com/in.js" type="text/javascript"></script><script type="IN/Share" data-url="' . get_permalink($post->ID) . '" data-counter="top"></script></p>';
+  echo '<script src="http://platform.linkedin.com/in.js" type="text/javascript"></script><script type="IN/Share" data-url="' . get_permalink($post->ID) . '" data-counter="top"></script>';
 }
 ?>
