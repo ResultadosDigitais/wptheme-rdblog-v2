@@ -1,15 +1,3 @@
-@media (max-width: 1300px) {
-  aside.social {
-    border-right: none !important;
-    padding: 10px !important;
-    position: inherit !important;
-    margin-left: 0 !important;
-    top: inherit !important;
-  }
-  aside.social p { display: inline-block; margin-right: 10px; }
-  #comments .comment-form input, #comments .comment-form textarea { width: 98% !important; }
-}
-
 @media (max-width: 930px) {
   .search-form label { width: 98% !important; }
   .search-form input { width: 98% !important; }
