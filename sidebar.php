@@ -19,7 +19,8 @@
     <?php } ?>
     <?php if ( is_option_setted('webprofile_linkedin_id') ) { ?>
       <p>
-        <script src="//platform.linkedin.com/in.js" type="text/javascript"></script><script type="IN/FollowCompany" data-id="<?php theme_webprofile_linkedin_id(); ?>" data-counter="right"></script>
+        <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: pt_BR</script>
+        <script type="IN/FollowCompany" data-id="<?php theme_webprofile_linkedin_id(); ?>" data-counter="right"></script>
       </p>
     <?php } ?>
     <?php if ( is_option_setted('webprofile_facebook') ) { ?>
