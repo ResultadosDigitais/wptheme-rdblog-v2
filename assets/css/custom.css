@@ -7,23 +7,24 @@ body {
   line-height: 1.7em;
 }
 h1, h2, h3, h4 { color: #4B4B4B; }
-a { color: #b11116; }
+a { color: #013E58; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { border-bottom: 2px solid #b11116; }
-#top-header #primary-nav ul li.current_page_item a { background-color: #b11116; color: #FFF; }
-#top-header #primary-nav ul li a:hover { background-color: #c2b59b; }
-#about-subscribe { background-color: #c2b59b; }
-#about-subscribe h2 { color: #fff; }
+#top-header { background-color: #013E58; }
+#top-header #primary-nav ul li.current_page_item a { background-color: #517E93; color: #FFF; }
+#top-header #primary-nav ul li a { color: #FFF; }
+#top-header #primary-nav ul li a:hover { background-color: #2a647b; }
+#about-subscribe { background-color: #fff; }
+#about-subscribe h2 { color: #013E58; }
 #headline { background: #3f98b5; }
 #headline h3 { color: #FFF; font-size: 1.5em; }
 
 /* Post */
 .blog-post .post-meta { color: #AAA; }
-.blog-post h3 a { color: #C21502; }
+.blog-post h3 a { color: #517E93; }
 .post-date {
   background: #eaeaea;
   background: -moz-linear-gradient(-45deg,  #eaeaea 0%, #eaeaea 50%, #dddddd 51%, #dddddd 100%); /* FF3.6+ */
@@ -37,27 +38,31 @@ h3 { font-size: 1.35em; }
 }
 .read-more {
   background-color: #EAEAEA;
-  color: #b11116;
+  color: #517E93;
 }
 .read-more:hover {
-  background-color: #b11116;
+  background-color: #517E93;
   color: #fff;
 }
 
 /* Footer */
-footer #top-footer { background-color: #aa9f88; color: #FFF; }
+footer #top-footer { background-color: #013E58; color: #FFF; }
 footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #FFF; }
-footer #top-footer #social-icons li a:hover { color: #b11116; }
+footer #top-footer #social-icons li a:hover { color: #517E93; }
 footer #bottom-footer { background-color: #27282C; color: #FFF; }
 
 /* Buttons */
 #scroll-top a:hover,
 input[type="submit"],
 #comments .comment-reply-link {
-  background-color: #b11116;
+  background-color: #517E93;
   color: #FFF;
 }
 input[type="submit"]:hover,
 #comments .comment-reply-link:hover {
-  background-color: #c2b59b;
+  background-color: #2a647b;
 }
+
+/* Scroll to top */
+#scroll-top a { background: #517E93; }
+#scroll-top a:hover { background-color: #2a647b !important; }
