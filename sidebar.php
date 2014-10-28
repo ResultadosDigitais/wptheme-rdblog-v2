@@ -11,7 +11,7 @@
       </form>
     </div>
   <?php } ?>
-  <div class="white-container sidebar-widget"> 
+  <div class="white-container sidebar-widget">
     <h3>Siga nas redes sociais</h3>
     <?php if ( is_option_setted('webprofile_twitter') ) { ?>
       <p>
@@ -20,7 +20,8 @@
     <?php } ?>
     <?php if ( is_option_setted('webprofile_linkedin_id') ) { ?>
       <p>
-        <script src="//platform.linkedin.com/in.js" type="text/javascript"></script><script type="IN/FollowCompany" data-id="<?php theme_webprofile_linkedin_id(); ?>" data-counter="right"></script>
+        <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: pt_BR</script>
+        <script type="IN/FollowCompany" data-id="<?php theme_webprofile_linkedin_id(); ?>" data-counter="right"></script>
       </p>
     <?php } ?>
     <?php if ( is_option_setted('webprofile_facebook') ) { ?>
