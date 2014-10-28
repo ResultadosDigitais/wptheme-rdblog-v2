@@ -26,7 +26,7 @@ function theme_options_do_page() {
 
     <form method="post" action="options.php">
       <?php settings_fields( 'rd-mkt_options' ); ?>
-      <?php 
+      <?php
         $default_options = array(
           'header_desc' => '',
           'footer_desc' => '',
@@ -34,6 +34,7 @@ function theme_options_do_page() {
           'webprofile_twitter' => '',
           'webprofile_facebook' => '',
           'webprofile_linkedin_id' => '',
+          'webprofile_gplus_id' => '',
           'webprofile_feedburner' => '',
           'url_social_facebook' => '',
           'url_social_twitter' => '',
@@ -45,7 +46,7 @@ function theme_options_do_page() {
           'url_social_instagram' => '',
           'url_social_mail' => ''
         );
-        $options = get_option( 'rd-mkt_theme_options' ); 
+        $options = get_option( 'rd-mkt_theme_options' );
       ?>
 
       <table class="form-table">
@@ -92,6 +93,12 @@ function theme_options_do_page() {
         <tr valign="top"><th scope="row"><?php _e( 'LinkedIn - ID', 'wptheme-rdblog' ); ?></th>
           <td>
             <input id="rd-mkt_theme_options[webprofile_linkedin_id]" class="regular-text" type="text" name="rd-mkt_theme_options[webprofile_linkedin_id]" placeholder="<?php esc_attr_e( $default_options['webprofile_linkedin_id'] ); ?>" value="<?php esc_attr_e( ($options['options_edited'] != 'true') ? $default_options['webprofile_linkedin_id'] : $options['webprofile_linkedin_id'] ); ?>" />
+          </td>
+        </tr>
+
+        <tr valign="top"><th scope="row"><?php _e( 'Google Plus - ID', 'wptheme-rdblog' ); ?></th>
+          <td>
+            <input id="rd-mkt_theme_options[webprofile_gplus_id]" class="regular-text" type="text" name="rd-mkt_theme_options[webprofile_gplus_id]" placeholder="<?php esc_attr_e( $default_options['webprofile_gplus_id'] ); ?>" value="<?php esc_attr_e( ($options['options_edited'] != 'true') ? $default_options['webprofile_gplus_id'] : $options['webprofile_gplus_id'] ); ?>" />
           </td>
         </tr>
 
