@@ -41,6 +41,7 @@ input[type="text"], input[type="search"], input[type="email"] { padding: 9px; bo
 .blog-post h3 a { text-decoration: none; }
 .blog-post h3 a:hover { text-decoration: underline; }
 .blog-post .wp-post-image { margin-bottom: 15px; }
+.blog-post > p:last-of-type { clear: both; }
 .read-more { clear: both; display: block; text-align: center; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; text-decoration: none; text-transform: uppercase; font-weight: bold; font-size: .8em; line-height: 1em; margin-top: 20px; padding: 15px; }
 .read-more { -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 .read-more i { font-size: .8em; margin-left: 3px; vertical-align: bottom; }
