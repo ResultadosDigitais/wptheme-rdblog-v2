@@ -66,3 +66,5 @@ input[type="submit"]:hover,
 /* Scroll to top */
 #scroll-top a { background: #177c90; }
 #scroll-top a:hover { background-color: #20819a !important; }
+#scroll-top a i { color: #fff; }
+#scroll-top a:hover i { color: #fff; }
