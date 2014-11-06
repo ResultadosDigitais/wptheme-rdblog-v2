@@ -8,6 +8,29 @@
   <meta name="viewport" content="width=device-width, user-scalable=no">
   <?php wp_head(); ?>
 
+  <?php
+    $thumb = get_the_post_thumbnail($post->ID);
+    $pattern= "/(?<=src=['|\"])[^'|\"]*?(?=['|\"])/i";
+    preg_match($pattern, $thumb, $thePath);
+    $theSrc = $thePath[0];
+  ?>
+
+  <meta property="fb:admins" content="159732357452275" />
+  <meta propert="og:site_name" content="<?php bloginfo('name'); ?>" />
+
+  <?php if (is_single()) { ?>
+    <meta property="og:title" content="<?php echo get_the_title(); ?>"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:image" content="<?php echo $theSrc; ?>" />
+    <meta property="og:url" content="<?php the_permalink() ?>" />
+    <meta property="og:description" content="<?php the_excerpt() ?>" />
+  <?php } else { ?>
+    <meta property="og:title" content="<?php bloginfo('name'); ?>"/>
+    <meta property="og:image" content="<?php echo $theSrc; ?>" />
+    <meta property="og:url" content="<?php bloginfo('url'); ?>" />
+    <meta property="og:description" content="<?php the_excerpt() ?>" />
+  <?php } ?>
+
   <?php if ( is_option_setted('webprofile_feedburner') ) { ?>
     <link rel="alternate" type="application/rss+xml" title="Feed RSS" href="http://feeds.feedburner.com/<?php theme_webprofile_feedburner(); ?>" />
   <?php } else { ?>

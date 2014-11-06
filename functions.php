@@ -1,7 +1,7 @@
 <?php
 
 //Wordpress Features
-add_theme_support('post-thumbnails'); 
+add_theme_support('post-thumbnails');
 
 //Other Functions
 require_once('assets/functions/menus.php');
