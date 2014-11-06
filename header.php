@@ -15,7 +15,7 @@
     $theSrc = $thePath[0];
   ?>
 
-  <meta property="fb:admins" content="159732357452275" />
+  <meta property="fb:admins" content="866105373,1204665048" />
   <meta propert="og:site_name" content="<?php bloginfo('name'); ?>" />
 
   <?php if (is_single()) { ?>
