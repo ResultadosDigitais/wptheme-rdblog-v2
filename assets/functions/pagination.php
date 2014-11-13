@@ -31,7 +31,7 @@ function rd_pagination() {
     $class = 1 == $paged ? ' class="active"' : '';
     printf( '<li%s><a href="%s">%s</a></li>' . "\n", $class, esc_url( get_pagenum_link( 1 ) ), '1' );
     if ( ! in_array( 2, $links ) )
-      echo '<li><span>…</span></li>';
+      echo '<li>…</li>';
   }
 
   sort( $links );
@@ -42,7 +42,7 @@ function rd_pagination() {
 
   if ( ! in_array( $max, $links ) ) {
     if ( ! in_array( $max - 1, $links ) )
-      echo '<li><span>…</span></li>' . "\n";
+      echo '<li>…</li>' . "\n";
     $class = $paged == $max ? ' class="active"' : '';
     printf( '<li%s><a href="%s">%s</a></li>' . "\n", $class, esc_url( get_pagenum_link( $max ) ), $max );
   }

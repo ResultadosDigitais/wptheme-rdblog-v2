@@ -34,12 +34,7 @@ function addLeadConversionToRdstationCrm( $rdstation_token, $identifier, $data_a
 
 function addLeadConversionToRdstationCrmViaWpCf7( $cf7 ) {
   $token_rdstation = $GLOBALS['TOKEN_RDSTATION'];
-  $submission = WPCF7_Submission::get_instance();
-
-  if ( $submission ) {
-    $form_data = $submission->get_posted_data();
-  }
-  
+  $form_data = $cf7->posted_data;
   addLeadConversionToRdstationCrm($token_rdstation, null, $form_data);
 }
 
