@@ -13,6 +13,7 @@ h3 { font-size: 1.35em; }
 
 /* Header */
 #top-header { border-bottom: 2px solid #d5833b; }
+#top-header #primary-nav ul a { background-color: #434142; color: #FFF; }
 #top-header #primary-nav ul li.current_page_item a { background-color: #434142; color: #FFF; }
 #top-header #primary-nav ul li a:hover { background-color: #d5833b; color: #FFF; }
 #about-subscribe { background-color: #434142; }
