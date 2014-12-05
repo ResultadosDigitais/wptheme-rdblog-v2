@@ -6,18 +6,22 @@ body {
   color: #4B4B4B;
   line-height: 1.7em;
 }
-h1, h2, h3, h4, a { color: #434142; }
+h1, h2, h3, h4, a { color: #524d51; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { border-bottom: 2px solid #d5833b; }
-#top-header #primary-nav ul a { background-color: #434142; color: #FFF; }
+#top-header { background-color: #524d51;}
+#top-header .container { padding: 40px 0 30px; }
+#top-header #primary-nav { padding: 15px 0 0 0; }
+#top-header #primary-nav ul a { background-color: #f28a44; color: #eee; margin-left: 10px; }
 #top-header #primary-nav ul li.current_page_item a { background-color: #434142; color: #FFF; }
 #top-header #primary-nav ul li a:hover { background-color: #d5833b; color: #FFF; }
-#about-subscribe { background-color: #434142; }
-#about-subscribe h2 { color: #ffffff; }
+#about-subscribe { background-color: #f28a44; }
+#about-subscribe .container { padding: 20px 0 10px; }
+#about-subscribe h2 { font-size: 1.1em; line-height: 1.6em; padding-right: 2em; padding-top: .5em; }
+#about-subscribe input { -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
 #headline { background: #434142; }
 #headline h3 { color: #FFF; font-size: 1.5em; }
 
@@ -54,10 +58,11 @@ footer #bottom-footer { background-color: #27282C; color: #FFF; }
 #scroll-top a:hover,
 input[type="submit"],
 #comments .comment-reply-link {
-  background-color: #d5833b;
+  background-color: #524d51;
   color: #FFF;
+  text-shadow: 1px 1px 2px #003000;
 }
 input[type="submit"]:hover,
 #comments .comment-reply-link:hover {
-  background-color: #bd6d27;
+  background-color: #524d51;
 }
