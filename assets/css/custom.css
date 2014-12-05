@@ -5,26 +5,29 @@ body {
   font-size: 16px;
   color: #4B4B4B;
   line-height: 1.7em;
+  background: url("http://www.jotama.com.br/images/whitey.png") repeat fixed 0 0 #FFFFFF;
 }
-h1, h2, h3, h4 { color: #4B4B4B; }
-a { color: #3f98b5; }
+h1, h2, h3, h4 { color: #696; }
+a { color: #3f4648; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { border-bottom: 2px solid #3f98b5; background-color: #fff; }
+#top-header { border-bottom: 2px solid #EBEBEB; background-color: #F1F3F4; }
+#top-header .container { padding: 30px 0 20px; }
 #top-header #primary-nav ul li.current_page_item a { background-color: #3f98b5; color: #FFF; }
-#top-header #primary-nav ul li a { color: #3f98b5; }
-#top-header #primary-nav ul li a:hover { background-color: #ddd; }
-#about-subscribe { background-color: #EAEAEA; }
-#about-subscribe h2 { color: #6B6B6B; }
-#headline { background: #3f98b5; }
+#top-header #primary-nav ul li a { background-color: #fff; color: #696; }
+#top-header #primary-nav ul li a:hover { background-color: #ddd; color: #27673e; }
+#about-subscribe { background-color: #fff; }
+#about-subscribe .container { padding: 20px 0; }
+#about-subscribe h2 { color: #696; line-height: 80px; }
+#headline { background: #696; }
 #headline h3 { color: #FFF; font-size: 1.5em; }
 
 /* Post */
 .blog-post .post-meta { color: #AAA; }
-.blog-post h3 a { color: #517E93; }
+.blog-post h3 a { color: #679966; }
 .post-date {
   background: #eaeaea;
   background: -moz-linear-gradient(-45deg,  #eaeaea 0%, #eaeaea 50%, #dddddd 51%, #dddddd 100%); /* FF3.6+ */
@@ -37,34 +40,34 @@ h3 { font-size: 1.35em; }
   color: #6B6B6B;
 }
 .read-more {
-  background-color: #EAEAEA;
-  color: #3f98b5;
+  background-color: #696;
+  color: #fff;
 }
 .read-more:hover {
-  background-color: #3f98b5;
-  color: #FFF;
+  background-color: #27673e;
+  color: #fff;
 }
 
 /* Footer */
-footer #top-footer { background-color: #3f98b5; color: #FFF; }
+footer #top-footer { background-color: #696; color: #FFF; }
 footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #FFF; }
-footer #top-footer #social-icons li a:hover { color: #1f5964; }
-footer #bottom-footer { background-color: #27282C; color: #FFF; }
+footer #top-footer #social-icons li a:hover { color: #27673e; }
+footer #bottom-footer { background-color: #27673e; color: #FFF; }
 
 /* Buttons */
 #scroll-top a:hover,
 input[type="submit"],
 #comments .comment-reply-link {
-  background-color: #3f98b5;
-  color: #FFF;
+  background-color: #696;
+  color: #fff;
 }
 input[type="submit"]:hover,
 #comments .comment-reply-link:hover {
-  background-color: #177c90;
+  background-color: #27673e;
 }
 
 /* Scroll to top */
-#scroll-top a { background: #177c90; }
-#scroll-top a:hover { background-color: #20819a; }
+#scroll-top a { background: #696; }
+#scroll-top a:hover { background-color: #27673e; }
 #scroll-top a i { color: #FFF; }
 #scroll-top a:hover i { color: #FFF; }
