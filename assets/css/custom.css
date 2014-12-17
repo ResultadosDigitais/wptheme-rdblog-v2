@@ -68,3 +68,15 @@ input[type="submit"]:hover,
 #scroll-top a:hover { background-color: #20819a; }
 #scroll-top a i { color: #FFF; }
 #scroll-top a:hover i { color: #FFF; }
+
+/* Custom */
+#top-header .container { padding: 20px 0; }
+#primary-nav { padding: 35px 0; }
+#about-subscribe {
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+@media (max-width: 767px) {
+  #primary-nav { padding: 0; }
+}
