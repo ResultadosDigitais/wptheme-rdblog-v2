@@ -25,7 +25,7 @@ function rd_pagination() {
   echo '<div class="pagination"><div class="l-box"><ul>' . "\n";
 
   if ( get_previous_posts_link() )
-    printf( '<li>%s</li>' . "\n", get_previous_posts_link() );
+    printf( '<li>%s</li>' . "\n", get_previous_posts_link( "Página anterior" ) );
 
   if ( ! in_array( 1, $links ) ) {
     $class = 1 == $paged ? ' class="active"' : '';
@@ -48,7 +48,7 @@ function rd_pagination() {
   }
 
   if ( get_next_posts_link() )
-    printf( '<li>%s</li>' . "\n", get_next_posts_link() );
+    printf( '<li>%s</li>' . "\n", get_next_posts_link( "Próxima página" ) );
 
   echo '</ul></div></div>' . "\n";
 }
