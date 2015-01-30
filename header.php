@@ -23,12 +23,12 @@
     <meta property="og:type" content="article"/>
     <meta property="og:image" content="<?php echo $theSrc; ?>" />
     <meta property="og:url" content="<?php the_permalink() ?>" />
-    <meta property="og:description" content="<?php the_excerpt() ?>" />
+    <meta property="og:description" content="<?php echo get_the_excerpt() ?>" />
   <?php } else { ?>
     <meta property="og:title" content="<?php bloginfo('name'); ?>"/>
     <meta property="og:image" content="<?php echo $theSrc; ?>" />
     <meta property="og:url" content="<?php bloginfo('url'); ?>" />
-    <meta property="og:description" content="<?php the_excerpt() ?>" />
+    <meta property="og:description" content="<?php echo get_the_excerpt() ?>" />
   <?php } ?>
 
   <?php if ( is_option_setted('webprofile_feedburner') ) { ?>
