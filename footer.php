@@ -2,7 +2,7 @@
   <div id="top-footer">
     <div class="container">
       <section id="dynamic-footer" class="pure-g-r">
-        <div class="pure-u-1-3">
+        <div class="pure-u-2-3">
           <div class="l-box">
             <h3><?php bloginfo('name') ?></h3>
             <p>
@@ -10,7 +10,7 @@
             </p>
           </div>
         </div>
-        <div class="pure-u-2-3">
+        <div class="pure-u-1-3">
           <div id="social-icons" class="l-box">
             <ul>
               <?php if ( is_option_setted('url_social_facebook') ) { ?>
