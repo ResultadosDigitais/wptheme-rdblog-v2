@@ -1,7 +1,7 @@
 <?php
 
 //Wordpress Features
-add_theme_support('post-thumbnails'); 
+add_theme_support('post-thumbnails');
 
 //Other Functions
 require_once('assets/functions/menus.php');
@@ -13,6 +13,6 @@ require_once('assets/functions/default-functions.php');
 require_once('assets/functions/options.php');
 require_once('assets/functions/admin.php');
 
-$GLOBALS['TOKEN_RDSTATION'] = "25d8e09a62a009f8c7ddf16d8148155a";
+$GLOBALS['TOKEN_RDSTATION'] = "07b80415d1944facd563257c0debd57b";
 
 ?>
