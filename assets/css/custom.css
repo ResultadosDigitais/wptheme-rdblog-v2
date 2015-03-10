@@ -7,24 +7,35 @@ body {
   line-height: 1.7em;
 }
 h1, h2, h3, h4 { color: #4B4B4B; }
-a { color: #3f98b5; }
+a { color: #396789; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { border-bottom: 2px solid #3f98b5; background-color: #fff; }
-#top-header #primary-nav ul li.current_page_item a { background-color: #3f98b5; color: #FFF; }
-#top-header #primary-nav ul li a { color: #3f98b5; }
-#top-header #primary-nav ul li a:hover { background-color: #ddd; }
-#about-subscribe { background-color: #EAEAEA; }
-#about-subscribe h2 { color: #6B6B6B; }
-#headline { background: #3f98b5; }
-#headline h3 { color: #FFF; font-size: 1.5em; }
+#top-header {
+  background: #396789; /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM5Njc4OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5N2JhY2QiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left,  #396789 0%, #97bacd 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#396789), color-stop(100%,#97bacd)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #396789 0%,#97bacd 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #396789 0%,#97bacd 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #396789 0%,#97bacd 100%); /* IE10+ */
+  background: linear-gradient(to right,  #396789 0%,#97bacd 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#396789', endColorstr='#97bacd',GradientType=1 ); /* IE6-8 */
+}
+#top-header #primary-nav ul li.current_page_item a { background-color: #174161; color: #97bacd; }
+#top-header #primary-nav ul li a { color: #FFF; }
+#top-header #primary-nav ul li a:hover { background-color: #97BACD; color: #FFF; }
+#about-subscribe { background-color: #174161; }
+#about-subscribe h2 { color: #97bacd; text-transform: uppercase; font-size: 1.1em; }
+#headline { background: #174161; }
+#headline h3 { color: #97bacd; font-size: 1.2em; }
 
 /* Post */
 .blog-post .post-meta { color: #AAA; }
-.blog-post h3 a { color: #517E93; }
+.blog-post h3 a { color: #174161; }
 .post-date {
   background: #eaeaea;
   background: -moz-linear-gradient(-45deg,  #eaeaea 0%, #eaeaea 50%, #dddddd 51%, #dddddd 100%); /* FF3.6+ */
@@ -38,33 +49,36 @@ h3 { font-size: 1.35em; }
 }
 .read-more {
   background-color: #EAEAEA;
-  color: #3f98b5;
+  color: #396789;
 }
 .read-more:hover {
-  background-color: #3f98b5;
+  background-color: #396789;
   color: #FFF;
 }
 
 /* Footer */
-footer #top-footer { background-color: #3f98b5; color: #FFF; }
+footer #top-footer { background-color: #396789; color: #FFF; }
 footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #FFF; }
-footer #top-footer #social-icons li a:hover { color: #1f5964; }
+footer #top-footer #social-icons li a:hover { color: #174161; }
 footer #bottom-footer { background-color: #27282C; color: #FFF; }
 
 /* Buttons */
-#scroll-top a:hover,
 input[type="submit"],
 #comments .comment-reply-link {
-  background-color: #3f98b5;
+  background-color: #396789;
   color: #FFF;
 }
 input[type="submit"]:hover,
 #comments .comment-reply-link:hover {
-  background-color: #177c90;
+  background-color: #91B141;
 }
 
 /* Scroll to top */
-#scroll-top a { background: #177c90; }
-#scroll-top a:hover { background-color: #20819a; }
+#scroll-top a { background: #174161; }
+#scroll-top a:hover { background-color: #0B2132; }
 #scroll-top a i { color: #FFF; }
 #scroll-top a:hover i { color: #FFF; }
+
+/* Custom */
+#top-header #primary-nav { padding: 8px 0; }
+@media (max-width: 767px) { #top-header #primary-nav { padding: 0 !important; } }
