@@ -18,6 +18,7 @@ h3 { font-size: 1.35em; }
 #top-header #primary-nav ul li.current_page_item a { background-color: #f04e23; color: #FFF; }
 #top-header #primary-nav ul li a { color: #f04e23; }
 #top-header #primary-nav ul li a:hover { background-color: #ddd; }
+#top-header .container { padding: 20px 0; }
 #about-subscribe { background-color: #f04e23; }
 #about-subscribe h2 { color: #ffffff; }
 #headline { background: #f04e23; }
