@@ -5,7 +5,7 @@
     <div id="content" class="pure-u-2-3">
       <?php if (have_posts()) : while(have_posts()) : the_post(); ?>
         <article class="blog-post white-container">
-          <h3><?php the_title(); ?></h3>
+          <h1><?php the_title(); ?></h1>
           <p><?php the_content(); ?></p>
         </article>
       <?php endwhile; else : ?>
