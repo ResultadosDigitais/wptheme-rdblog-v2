@@ -1,7 +1,7 @@
 /* Base */
 body {
   background-color: #F7F7F7;
-  font-family: 'TahomaRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #A3A3A3;
   line-height: 1.7em;
@@ -14,20 +14,20 @@ h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { background-color: #fff; }
+#top-header { background-color: #fff; background-image: url('../../assets/images/bg.jpg'); background-position: top; border-bottom: 1px solid #fff; }
 #top-header .container { padding: 0; }
-#top-header hgroup a img { padding: 15px 0; float: left; }
+#top-header hgroup a img { padding: 15px 0 0; float: left; }
 #top-header #primary-nav ul li.current_page_item a { background-color: #e0251c; color: #FFFFFF; }
-#top-header #primary-nav ul li a { border-radius: 0; background-color: #ffffff; color: #A3A3A3; margin: 0; padding: 0 20px; line-height: 100px; display: inline-block; }
+#top-header #primary-nav ul li a { border-radius: 0; background-color: rgba(0,0,0,.1); color: #fff; margin: 0; padding: 0 20px; line-height: 100px; display: inline-block; }
 #top-header #primary-nav ul li a:hover { background-color: #e0251c; color: #ffffff; }
 
-#about-subscribe { background-color: #EBEBEB; }
+#about-subscribe { background-color: #EBEBEB; background-image: url('../../assets/images/bg.jpg') !important; background-position: bottom !important; }
 #about-subscribe .container { padding: 20px 0 10px; }
-#about-subscribe h2 { color: #A3A3A3; font-size: 1.35em; line-height: 1.4em; }
-#about-subscribe h3 { font-size: 1em; line-height: 1em; }
+#about-subscribe h2 { color: #f7f7f7; font-size: 1.35em; line-height: 60px; }
+#about-subscribe h3 { color: #f7f7f7; font-size: 1em; line-height: 1em; }
 
-#headline { background: #EBEBEB; }
-#headline h3 { color: #A3A3A3; font-size: 1.5em; }
+#headline { }
+#headline h3 { color: #f7f7f7; font-size: 1.5em; }
 
 /* Post */
 .blog-post .post-meta { color: #AAA; }
