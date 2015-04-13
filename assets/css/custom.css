@@ -5,29 +5,41 @@ body {
   font-size: 16px;
   color: #4B4B4B;
   line-height: 1.7em;
-  background: url("http://www.jotama.com.br/images/whitey.png") repeat fixed 0 0 #FFFFFF;
 }
-h1, h2, h3, h4 { color: #696; }
-a { color: #3f4648; }
+h1, h2, h3, h4 { color: #777; }
+a { color: #007093; }
+a:hover,
+a:focus { color: #008AB3; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { border-bottom: 2px solid #EBEBEB; background-color: #F1F3F4; }
-#top-header .container { padding: 30px 0 20px; }
-#top-header #primary-nav ul li.current_page_item a { background-color: #3f98b5; color: #FFF; }
-#top-header #primary-nav ul li a { background-color: #fff; color: #696; }
-#top-header #primary-nav ul li a:hover { background-color: #ddd; color: #27673e; }
-#about-subscribe { background-color: #fff; }
-#about-subscribe .container { padding: 20px 0; }
-#about-subscribe h2 { color: #696; line-height: 80px; }
+#top-header { border-top: 20px solid #E0E0E0; background-color: #fff; }
+#top-header .container { padding: 0; }
+#top-header .container hgroup a img { float: left; margin: -10px 0 10px; height: 160px; }
+#top-header #primary-nav ul li { line-height: 10em; }
+#top-header #primary-nav ul li.current_page_item a { background-color: #008AB3; color: #fff; }
+#top-header #primary-nav ul li a { background-color: #FFF; padding: .1em 1.5em 0; color: #333; line-height: 3em; display: inline-block;}
+#top-header #primary-nav ul li a:hover { background-color: #007DA3; color: #fff; }
+#about-subscribe {
+  background-color: #007DA3;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#007093), to(#008AB3));
+  background-image: -webkit-linear-gradient(top, #007093, #008AB3);
+  background-image: -moz-linear-gradient(top, #007093, #008ab3);
+  background-image: -ms-linear-gradient(top, #007093, #008ab3);
+  background-image: -o-linear-gradient(top, #007093, #008ab3);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#007093', EndColorStr='#008ab3')";
+}
+#about-subscribe .container { padding: 0; }
+#about-subscribe h2 { color: #fff; line-height: 85px; font-size: 24px; }
+#about-subscribe .feedburner-area h3 { color: #E0E0E0; font-size: 16px; margin-top: 10px; }
+#about-subscribe .feedburner-area form p { margin: 0 0 15px 0; }
 #headline { background: #696; }
-#headline h3 { color: #FFF; font-size: 1.5em; }
+#headline h3 { color: #fff; font-size: 1.5em; }
 
 /* Post */
 .blog-post .post-meta { color: #AAA; }
-.blog-post h3 a { color: #679966; }
 .post-date {
   background: #eaeaea;
   background: -moz-linear-gradient(-45deg,  #eaeaea 0%, #eaeaea 50%, #dddddd 51%, #dddddd 100%); /* FF3.6+ */
@@ -40,34 +52,32 @@ h3 { font-size: 1.35em; }
   color: #6B6B6B;
 }
 .read-more {
-  background-color: #696;
+  background-color: #008AB3;
   color: #fff;
 }
-.read-more:hover {
-  background-color: #27673e;
+.read-more:hover,
+.read-more:focus {
+  background-color: #007093;
   color: #fff;
+  text-decoration: underline;
 }
 
 /* Footer */
-footer #top-footer { background-color: #696; color: #FFF; }
-footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #FFF; }
-footer #top-footer #social-icons li a:hover { color: #27673e; }
-footer #bottom-footer { background-color: #27673e; color: #FFF; }
+footer #top-footer { background-color: #DBDBDB; color: #999; }
+footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #777; }
+footer #top-footer #social-icons li a:hover,
+footer #top-footer #social-icons li a:focus { color: #008AB3; }
+footer #bottom-footer { background-color: #00A9EA; color: #FFF; }
 
 /* Buttons */
 #scroll-top a:hover,
 input[type="submit"],
-#comments .comment-reply-link {
-  background-color: #696;
-  color: #fff;
-}
+#comments .comment-reply-link { background-color: #E0E0E0; color: #007093; font-weight: bold; }
 input[type="submit"]:hover,
-#comments .comment-reply-link:hover {
-  background-color: #27673e;
-}
+#comments .comment-reply-link:hover { background-color: #fff; }
 
 /* Scroll to top */
-#scroll-top a { background: #696; }
-#scroll-top a:hover { background-color: #27673e; }
+#scroll-top a { background: #008AB3; }
+#scroll-top a:hover { background-color: #007093; }
 #scroll-top a i { color: #FFF; }
 #scroll-top a:hover i { color: #FFF; }
