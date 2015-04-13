@@ -22,7 +22,8 @@ h3 { font-size: 1.35em; }
 #top-header #primary-nav ul li.current_page_item a { background-color: #008AB3; color: #fff; }
 #top-header #primary-nav ul li a { background-color: #FFF; padding: .1em 1.5em 0; color: #333; line-height: 3em; display: inline-block;}
 #top-header #primary-nav ul li a:hover { background-color: #007DA3; color: #fff; }
-#about-subscribe {
+#about-subscribe,
+#headline {
   background-color: #007DA3;
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#007093), to(#008AB3));
   background-image: -webkit-linear-gradient(top, #007093, #008AB3);
@@ -33,10 +34,9 @@ h3 { font-size: 1.35em; }
 }
 #about-subscribe .container { padding: 0; }
 #about-subscribe h2 { color: #fff; line-height: 85px; font-size: 24px; }
+#headline h3 { color: #fff; font-size: 1.5em; }
 #about-subscribe .feedburner-area h3 { color: #E0E0E0; font-size: 16px; margin-top: 10px; }
 #about-subscribe .feedburner-area form p { margin: 0 0 15px 0; }
-#headline { background: #696; }
-#headline h3 { color: #fff; font-size: 1.5em; }
 
 /* Post */
 .blog-post .post-meta { color: #AAA; }
@@ -54,6 +54,7 @@ h3 { font-size: 1.35em; }
 .read-more {
   background-color: #008AB3;
   color: #fff;
+  padding: 1.1em 2em 1em;
 }
 .read-more:hover,
 .read-more:focus {
@@ -66,18 +67,29 @@ h3 { font-size: 1.35em; }
 footer #top-footer { background-color: #DBDBDB; color: #999; }
 footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #777; }
 footer #top-footer #social-icons li a:hover,
-footer #top-footer #social-icons li a:focus { color: #008AB3; }
+footer #top-footer #social-icons li a:focus { color: #00A9EA; }
 footer #bottom-footer { background-color: #00A9EA; color: #FFF; }
 
 /* Buttons */
 #scroll-top a:hover,
 input[type="submit"],
-#comments .comment-reply-link { background-color: #E0E0E0; color: #007093; font-weight: bold; }
+#comments .comment-reply-link { color: #007093; background-color: #fff; border: 1px solid #00A9EA; font-weight: bold; padding: 9px 2em;}
 input[type="submit"]:hover,
-#comments .comment-reply-link:hover { background-color: #fff; }
+#comments .comment-reply-link:hover { background-color: #E0E0E0; color: #333; }
+
+input[type="text"], input[type="search"], input[type="email"] {
+  border-color: #00A9EA;
+}
 
 /* Scroll to top */
 #scroll-top a { background: #008AB3; }
 #scroll-top a:hover { background-color: #007093; }
 #scroll-top a i { color: #FFF; }
 #scroll-top a:hover i { color: #FFF; }
+
+/* redesign footer */
+#top-footer {}
+#dynamic-footer > .pure-u-1-3,
+#dynamic-footer > .pure-u-2-3 { width:100%; }
+#dynamic-footer  .l-box { text-align: center; }
+#dynamic-footer  .l-box p { font-size: 0.95em }
