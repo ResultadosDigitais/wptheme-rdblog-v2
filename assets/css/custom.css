@@ -13,7 +13,7 @@ h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { border-bottom: 2px solid #3f98b5; background-color: #fff; }
+#top-header { border-bottom: 2px solid #3f98b5; background-color: #fdfdfd; }
 #top-header #primary-nav ul li.current_page_item a { background-color: #3f98b5; color: #FFF; }
 #top-header #primary-nav ul li a { color: #3f98b5; }
 #top-header #primary-nav ul li a:hover { background-color: #ddd; }
