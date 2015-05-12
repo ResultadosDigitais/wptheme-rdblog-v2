@@ -4,8 +4,8 @@ p { margin: 10px 0; }
 .alignleft { float: left; margin: 0 15px 15px 0; }
 .alignright { float: right; margin: 0 0 15px 15px; }
 label { font-size: .9em; -webkit-appearance: none; }
-input[type="submit"] { -webkit-appearance: none; border: none; padding: 10px 15px; margin: 0; border-radius: 2px; cursor: pointer; text-transform: uppercase; }
-input[type="text"], input[type="search"], input[type="email"] { padding: 9px; border-radius: 2px; border: 1px solid #C0C0C0; }
+input[type="submit"] { -webkit-appearance: none; border: 1px solid transparent; padding: 10px 15px; margin: 0; border-radius: 4px; cursor: pointer; text-transform: uppercase; }
+input[type="text"], input[type="search"], input[type="email"] { padding: 10px; border-radius: 4px; border: 1px solid #C0C0C0; }
 .blog-post ul li { list-style-type: disc; list-style-position: inside; }
 .search-field { width: 58%;}
 .search-submit { width: 38%; text-align: center; -webkit-appearance: none; }
@@ -42,7 +42,7 @@ input[type="text"], input[type="search"], input[type="email"] { padding: 9px; bo
 .blog-post h1 a:hover { text-decoration: underline; }
 .blog-post .wp-post-image { margin-bottom: 15px; }
 .blog-post > p:last-of-type { clear: both; }
-.read-more { clear: both; display: block; text-align: center; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; text-decoration: none; text-transform: uppercase; font-weight: bold; font-size: .8em; line-height: 1em; margin-top: 20px; padding: 15px; }
+.read-more { clear: both; display: block; text-align: center; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; text-decoration: none; text-transform: uppercase; font-weight: bold; font-size: .8em; line-height: 1em; margin-top: 20px; padding: 15px; }
 .read-more { -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 .read-more i { font-size: .8em; margin-left: 3px; vertical-align: bottom; }
 .blog-post .post-meta .author, .blog-post .post-meta .date, .blog-post .post-meta .category { display: inline-block; margin-right: 15px; }

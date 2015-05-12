@@ -99,14 +99,16 @@
             </div>
           </div>
           <div class="pure-u-1-3">
-            <h3>Assine nossos posts</h3>
-            <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=<?php theme_webprofile_feedburner(); ?>', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-              <p>
-                <input type="text" placeholder="Endereço de email" name="email"/>
-                <input type="submit" value="Enviar"/>
-                <input type="hidden" value="<?php theme_webprofile_feedburner(); ?>" name="uri"/><input type="hidden" name="loc" value="pt_BR"/>
-              </p>
-            </form>
+            <div class="l-box">
+              <h3>Assine nossos posts</h3>
+              <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=<?php theme_webprofile_feedburner(); ?>', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                <p>
+                  <input type="text" placeholder="Endereço de email" name="email"/>
+                  <input type="submit" value="Enviar"/>
+                  <input type="hidden" value="<?php theme_webprofile_feedburner(); ?>" name="uri"/><input type="hidden" name="loc" value="pt_BR"/>
+                </p>
+              </form>
+            </div>
           </div>
         </div>
       <?php } else { ?>
