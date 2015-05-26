@@ -14,13 +14,13 @@ h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { background-color: #fff; border-bottom: 1px solid #ff9900; }
+#top-header { background-color: #ff9900; border-bottom: 1px solid #ff9900; }
 #top-header .container { padding: 0; }
 #top-header hgroup { padding: 1em 0 0; }
-#top-header hgroup a img { padding: 0; margin: 0; }
-#top-header #primary-nav ul li { padding: 1em 0; }
+#top-header hgroup a img { padding: 20px; margin: 0 0 10px; background-color: #fff; }
+#top-header #primary-nav ul li { padding: 2em 0; }
 #top-header #primary-nav ul li a { background-color: #ffeed4; color: #777; margin: 0 .1em; padding: 0 1em; line-height: 3em; display: inline-block; }
-#top-header #primary-nav ul li a:hover { background-color: #ff9900; color: #ffffff; }
+#top-header #primary-nav ul li a:hover { background-color: #fff; color: #ff9900; }
 #top-header #primary-nav ul li.current_page_item a { background-color: #ff9900; color: #ffffff; }
 
 #about-subscribe { background-color: #EBEBEB; }
