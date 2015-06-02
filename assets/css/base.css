@@ -22,14 +22,14 @@ input[type="text"], input[type="search"], input[type="email"] { padding: 9px; bo
 
 /* Header */
 #top-header { background-color: #FFF; }
-#top-header .container { padding: 40px 0; }
+#top-header .container { padding: 20px 0; }
 #top-header h1 { text-indent: -9999px; position: absolute; }
 #top-header #primary-nav { text-align: right; line-height: 3.5em; }
 #top-header #primary-nav ul li { display: inline-block; }
 #top-header #primary-nav ul li a { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 5px; text-decoration: none; text-transform: uppercase; padding: 15px 20px; }
 #top-header #primary-nav ul li a, input[type="submit"] { -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 #about-subscribe .container { padding: 40px 0; }
-#about-subscribe h2 { font-size: 1em; padding-right: 150px; }
+#about-subscribe h2 { font-size: 1em; }
 #about-subscribe form input[type="text"] { width: 68%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 #about-subscribe form input[type="submit"] { width: 30%; text-align: center; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 #headline .container { padding: 30px 10px; }
