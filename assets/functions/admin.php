@@ -44,6 +44,12 @@ if (!function_exists('theme_webprofile_linkedin_id')) {
   }
 }
 
+if (!function_exists('theme_webprofile_gplus_id')) {
+  function theme_webprofile_gplus_id($_echo = true) {
+    get_theme_option('webprofile_gplus_id', $_echo);
+  }
+}
+
 if (!function_exists('theme_webprofile_feedburner')) {
   function theme_webprofile_feedburner($_echo = true) {
     get_theme_option('webprofile_feedburner', $_echo);
