@@ -6,7 +6,7 @@
       <?php if (have_posts()) : while(have_posts()) : the_post(); ?>
         <article class="blog-post white-container">
           <?php if ( has_post_thumbnail() ) { the_post_thumbnail(); } ?>
-          <h1><?php the_title(); ?></h1>
+          <h3><?php the_title(); ?></h3>
           <div class="post-meta">
             <span class="author">
               <i class="fa fa-user"></i>
