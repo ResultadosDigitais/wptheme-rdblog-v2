@@ -6,23 +6,27 @@ body {
   color: #4B4B4B;
   line-height: 1.7em;
 }
-h1, h2, h3, h4, a { color: #3f98b5; }
+h1, h2, h3, h4 { color: #4B4B4B; }
+a { color: #2b4c7d; }
+a:hover { color: #10bdf4; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { border-bottom: 2px solid #3f98b5; }
-#top-header #primary-nav ul li.current_page_item a { background-color: #3f98b5; color: #FFF; }
-#top-header #primary-nav ul li a:hover { background-color: #EAEAEA; }
-#about-subscribe { background-color: #EAEAEA; }
-#about-subscribe h2 { color: #6B6B6B; }
-#headline { background: #3f98b5; }
-#headline h3 { color: #FFF; font-size: 1.5em; }
+#top-header { border-bottom: 2px solid #fff; background-color: #fff; }
+#top-header #primary-nav ul li.current_page_item a { background-color: #f1f1f1; color: #10bdf4; }
+#top-header #primary-nav ul li a { color:#10bdf4; }
+#top-header #primary-nav ul li a:hover { background-color: #10bdf4; color: #fff; }
+#top-header .container { padding: 20px 0; }
+#about-subscribe { background-color: #2b4c7d; }
+#about-subscribe h2 { color: #fff; }
+#headline { background: #2b4c7d; }
+#headline h3 { color: #fff; font-size: 1.5em; }
 
 /* Post */
 .blog-post .post-meta { color: #AAA; }
-.blog-post h3, .blog-post h3 a { color: #4B4B4B; }
+.blog-post h3 a { color: #034a80; }
 .post-date {
   background: #eaeaea;
   background: -moz-linear-gradient(-45deg,  #eaeaea 0%, #eaeaea 50%, #dddddd 51%, #dddddd 100%); /* FF3.6+ */
@@ -36,27 +40,35 @@ h3 { font-size: 1.35em; }
 }
 .read-more {
   background-color: #EAEAEA;
-  color: #3f98b5;
+  color: #10bdf4;
 }
 .read-more:hover {
-  background-color: #3f98b5;
+  background-color: #10bdf4;
   color: #FFF;
 }
 
 /* Footer */
-footer #top-footer { background-color: #3f98b5; color: #FFF; }
-footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #FFF; }
-footer #top-footer #social-icons li a:hover { color: #4B4B4B; }
-footer #bottom-footer { background-color: #27282C; color: #FFF; }
+footer #top-footer { background-color: #1f314c; color: #fff; }
+footer #top-footer #social-icons li a, #top-footer h3 { color: #fff; }
+footer #top-footer #social-icons li a { color: #fff; }
+footer #top-footer #social-icons li a:hover { color: #cf2b1a; }
+footer #bottom-footer { background-color: #000; color: #666; }
 
 /* Buttons */
 #scroll-top a:hover,
 input[type="submit"],
 #comments .comment-reply-link {
-  background-color: #f5454a;
+  background-color: #cf2b1a;
   color: #FFF;
 }
 input[type="submit"]:hover,
 #comments .comment-reply-link:hover {
-  background-color: #CC3C40;
+  background-color: #bb2010;
+  color: #fff;
 }
+
+/* Scroll to top */
+#scroll-top a { background: #cf2b1a; }
+#scroll-top a:hover { background-color: #555; }
+#scroll-top a i { color: #fff; }
+#scroll-top a:hover i { color: #ddd; }
