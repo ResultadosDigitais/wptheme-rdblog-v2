@@ -19,7 +19,7 @@
             </span>
           </div>
           <?php include (TEMPLATEPATH . '/social.php'); ?>
-          <p><?php the_content(); ?></p>
+          <div class="content"><?php the_content(); ?></div>
           <?php echo get_post_meta($post->ID, 'banner-cta', true) ?>
           <div class="post-meta" style="margin: 0;">
             <span class="category">

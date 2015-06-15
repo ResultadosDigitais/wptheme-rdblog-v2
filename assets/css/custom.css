@@ -189,6 +189,16 @@ aside.social {
 .social-media { display: inline-block !important; margin-right: 20px !important; vertical-align: top !important; }
 #comments .comment-form input, #comments .comment-form textarea { width: 98% !important; }
 
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 { color: #506E84; margin: 0 0 20px; }
+.content p+h1, .content p+h2, .content p+h3, .content p+h4, .content p+h5, .content p+h6{ margin: 40px 0 20px; }
+
+.content h1{ font-size: 2.625em; line-height: 1.25; }
+.content h2{ font-size: 2.25em; line-height: 1.25; }
+.content h3{ font-size: 1.75em; line-height: 1.25; }
+.content h4{ font-size: 1.5em; line-height: 1.25; }
+.content h5{ font-size: 1.125em; line-height: 1.25; font-weight: bold; }
+.content h6{ font-size: 1em; line-height: 1.25; font-weight: bold; }
+
 /* Custom Responsive */
 @media (max-width: 930px) {
   .loop-posts .post { width: 100%; display: block; }
