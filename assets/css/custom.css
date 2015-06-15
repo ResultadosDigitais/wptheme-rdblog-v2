@@ -15,9 +15,9 @@ h3 { font-size: 1.35em; }
 
 /* Header */
 #top-header { border-bottom: 2px solid #fff; background-color: #fff; }
-#top-header #primary-nav ul li.current_page_item a { background-color: #144351; color: #FFF; }
-#top-header #primary-nav ul li a { color: #fff; }
-#top-header #primary-nav ul li a:hover { background-color: #f6891e; color: #fff; }
+#top-header #primary-nav ul li.current_page_item a { background-color: #ffb80b; color: #FFF; }
+#top-header #primary-nav ul li a { color: #000; }
+#top-header #primary-nav ul li a:hover { background-color: #de0046; color: #fff; }
 #top-header .container { padding: 20px 0; }
 #about-subscribe { background-color: #000; }
 #about-subscribe h2 { color: #fff; }
