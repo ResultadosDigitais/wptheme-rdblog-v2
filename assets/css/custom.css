@@ -7,16 +7,16 @@ body {
   line-height: 1.7em;
 }
 h1, h2, h3, h4 { color: #4B4B4B; }
-a { color: #3f98b5; }
+a { color: #e5b700; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { border-bottom: 2px solid #3f98b5; background-color: #fff; }
-#top-header #primary-nav ul li.current_page_item a { background-color: #3f98b5; color: #FFF; }
-#top-header #primary-nav ul li a { color: #3f98b5; }
-#top-header #primary-nav ul li a:hover { background-color: #ddd; }
+#top-header { border-bottom: 2px solid #ccc; background-color: #fff; }
+#top-header #primary-nav ul li.current_page_item a { background-color: #e5b700; color: #FFF; }
+#top-header #primary-nav ul li a { color: #e5b700; }
+#top-header #primary-nav ul li a:hover { background-color: #eee; }
 #about-subscribe { background-color: #EAEAEA; }
 #about-subscribe h2 { color: #6B6B6B; }
 #headline { background: #3f98b5; }
@@ -37,34 +37,34 @@ h3 { font-size: 1.35em; }
   color: #6B6B6B;
 }
 .read-more {
-  background-color: #EAEAEA;
-  color: #3f98b5;
+  background-color: #FFCC00;
+  color: #fff;
 }
 .read-more:hover {
-  background-color: #3f98b5;
+  background-color: #e5b700;
   color: #FFF;
 }
 
 /* Footer */
-footer #top-footer { background-color: #3f98b5; color: #FFF; }
-footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #FFF; }
-footer #top-footer #social-icons li a:hover { color: #1f5964; }
-footer #bottom-footer { background-color: #27282C; color: #FFF; }
+footer #top-footer { background-color: #fff; color: #000; }
+footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #aaa; }
+footer #top-footer #social-icons li a:hover { color: #000; }
+footer #bottom-footer { background-color: #EAEAEA; color: #000; }
 
 /* Buttons */
 #scroll-top a:hover,
 input[type="submit"],
 #comments .comment-reply-link {
-  background-color: #3f98b5;
+  background-color: #FFCC00;
   color: #FFF;
 }
 input[type="submit"]:hover,
 #comments .comment-reply-link:hover {
-  background-color: #177c90;
+  background-color: #e5b700;
 }
 
 /* Scroll to top */
-#scroll-top a { background: #177c90; }
-#scroll-top a:hover { background-color: #20819a; }
+#scroll-top a { background: #FFCC00; }
+#scroll-top a:hover { background-color: #e5b700; }
 #scroll-top a i { color: #FFF; }
 #scroll-top a:hover i { color: #FFF; }
