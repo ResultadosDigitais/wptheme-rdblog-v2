@@ -7,19 +7,24 @@ body {
   line-height: 1.7em;
 }
 h1, h2, h3, h4 { color: #4B4B4B; }
-a { color: #3f98b5; }
+a { color: #404192; }
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
-#top-header { border-bottom: 2px solid #3f98b5; background-color: #fff; }
-#top-header #primary-nav ul li.current_page_item a { background-color: #3f98b5; color: #FFF; }
-#top-header #primary-nav ul li a { color: #3f98b5; }
+#top-header { background-color: #404192; }
+#top-header #primary-nav ul li.current_page_item a { background-color: #404192; color: #FFF; }
+#top-header #primary-nav ul li a { background-color: #FFF; color: #404192; }
 #top-header #primary-nav ul li a:hover { background-color: #ddd; }
 #about-subscribe { background-color: #EAEAEA; }
-#about-subscribe h2 { color: #6B6B6B; }
-#headline { background: #3f98b5; }
+#about-subscribe h2 {
+  color: #404192;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#headline { background: #404192; }
 #headline h3 { color: #FFF; font-size: 1.5em; }
 
 /* Post */
@@ -38,24 +43,24 @@ h3 { font-size: 1.35em; }
 }
 .read-more {
   background-color: #EAEAEA;
-  color: #3f98b5;
+  color: #404192;
 }
 .read-more:hover {
-  background-color: #3f98b5;
+  background-color: #404192;
   color: #FFF;
 }
 
 /* Footer */
-footer #top-footer { background-color: #3f98b5; color: #FFF; }
+footer #top-footer { background-color: #8da9d4; color: #FFF; }
 footer #top-footer #social-icons li a, #top-footer h3, #top-footer a { color: #FFF; }
-footer #top-footer #social-icons li a:hover { color: #1f5964; }
+footer #top-footer #social-icons li a:hover { color: #404192; }
 footer #bottom-footer { background-color: #27282C; color: #FFF; }
 
 /* Buttons */
 #scroll-top a:hover,
 input[type="submit"],
 #comments .comment-reply-link {
-  background-color: #3f98b5;
+  background-color: #404192;
   color: #FFF;
 }
 input[type="submit"]:hover,
@@ -64,7 +69,13 @@ input[type="submit"]:hover,
 }
 
 /* Scroll to top */
-#scroll-top a { background: #177c90; }
-#scroll-top a:hover { background-color: #20819a; }
+#scroll-top a { background: #404192; }
+#scroll-top a:hover { background-color: #313273; }
 #scroll-top a i { color: #FFF; }
 #scroll-top a:hover i { color: #FFF; }
+
+/* Custom */
+#top-header #primary-nav { padding: 45px 0; }
+@media (max-width: 767px) {
+  #top-header #primary-nav { padding: 0 !important; }
+}
