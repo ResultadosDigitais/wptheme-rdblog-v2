@@ -79,12 +79,6 @@ function my_theme_register_required_plugins() {
             'force_activation'   => true,
         ),
         array(
-            'name'               => 'All in One SEO Pack',
-            'slug'               => 'all-in-one-seo-pack',
-            'required'           => true,
-            'force_activation'   => true,
-        ),
-        array(
             'name'               => 'Wordpress SEO',
             'slug'               => 'wordpress-seo',
             'required'           => true,
