@@ -11,9 +11,11 @@ h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
+iframe { background-color: transparent !important; }
+
 /* Header */
 #top-header { background-color: #F4F3F3; }
-#top-header .container { padding: 13px 0 0 !important }
+#top-header .container { padding: 13px 0 0 !important; }
 #top-header #primary-nav { margin-top: 20px; }
 #top-header #primary-nav ul li.current_page_item a { background-color: #557729; color: #FFF; }
 #top-header #primary-nav ul li a:hover { background-color: #EAEAEA; }
@@ -81,8 +83,8 @@ input[type="submit"]:hover,
 }
 
 /* Scroll to top */
-#scroll-top a { background: #89c236; }
-#scroll-top a:hover { background-color: #7fb62e; }
+#scroll-top a { background: #818c90; }
+#scroll-top a:hover { background-color: #d2dea4; }
 #scroll-top a i { color: #FFF; }
 #scroll-top a:hover i { color: #FFF; }
 
