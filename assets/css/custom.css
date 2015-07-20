@@ -13,10 +13,11 @@ h2 { font-size: 1.5em; }
 h3 { font-size: 1.35em; }
 
 /* Header */
+#primary-nav { margin-top: 15px; }
 #top-header { border-bottom: 2px solid #fff; background-color: #fff; }
 #top-header #primary-nav ul li.current_page_item a { background-color: #89c236; color: #FFF; }
 #top-header #primary-nav ul li a { color: #000; }
-#top-header #primary-nav ul li a:hover { color: #89c236; }
+#top-header #primary-nav ul li a:hover { background-color: #EAEAEA; color: #89c236; }
 #about-subscribe { background-color: #000; }
 #about-subscribe h2 { color: #fff; }
 #headline { background: #000; }
