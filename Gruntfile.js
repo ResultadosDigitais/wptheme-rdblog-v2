@@ -9,7 +9,7 @@ module.exports = function(grunt){
           compress: false
         },
         files: {
-          'assets/css/custom.css': 'stylus/index.styl',
+          'css/custom.css': 'stylus/index.styl',
         }
       }
     },
