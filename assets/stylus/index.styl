@@ -1,0 +1,31 @@
+@import 'variables'
+@import 'nib'
+@import 'areas/fonts'
+@import 'areas/header'
+@import 'areas/post'
+@import 'areas/footer'
+@import 'areas/buttons'
+@import 'areas/comments'
+
+body  
+  font-family 'Helvetica Neue', Helvetica, Arial, sans-serif
+  font-size 16px
+  color #4B4B4B
+  line-height 1.7em
+
+/* Scroll to top */
+#scroll-top 
+  a  
+    background secondary-color
+    i
+      color #FFF
+    &:hover
+      background-color #20819a 
+      i
+        color: #FFF 
+        
+input[type="submit"]
+  background-color default-color
+  color #fff
+  &:hover
+    background-color secondary-color
