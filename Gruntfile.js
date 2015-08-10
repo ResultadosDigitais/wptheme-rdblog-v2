@@ -9,13 +9,13 @@ module.exports = function(grunt){
           compress: false
         },
         files: {
-          'css/custom.css': 'stylus/index.styl',
+          './assets/css/custom.css': './assets/stylus/index.styl',
         }
       }
     },
     watch: {
       stylus:{
-        files:['stylus/*.styl','stylus/**/*.styl'],
+        files:['./assets/stylus/*.styl','./assets/stylus/**/*.styl'],
         tasks: 'stylus'
       }
     }
