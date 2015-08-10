@@ -1,13 +1,13 @@
 @import 'variables'
-@import 'mixins'
+@import 'nib'
 @import 'areas/fonts'
 @import 'areas/header'
 @import 'areas/post'
 @import 'areas/footer'
 @import 'areas/buttons'
+@import 'areas/comments'
 
 body  
-  background-color #f8f8fa
   font-family 'Helvetica Neue', Helvetica, Arial, sans-serif
   font-size 16px
   color #4B4B4B
@@ -16,10 +16,16 @@ body
 /* Scroll to top */
 #scroll-top 
   a  
-    background #177c90
+    background secondary-color
     i
       color #FFF
     &:hover
       background-color #20819a 
       i
         color: #FFF 
+        
+input[type="submit"]
+  background-color default-color
+  color #fff
+  &:hover
+    background-color secondary-color
