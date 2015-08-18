@@ -199,6 +199,28 @@ aside.social {
 .content h5{ font-size: 1.125em; line-height: 1.25; font-weight: bold; }
 .content h6{ font-size: 1em; line-height: 1.25; font-weight: bold; }
 
+.authorship{
+  border-top: 1px solid #EAEAEA;
+  margin-top: 25px;
+  padding-top: 25px;
+  position: relative;
+}
+.authorship img{
+  border-radius: 90px;
+  margin-right: 25px;
+  position: absolute;
+}
+.authorship .info{
+  box-sizing: border-box;
+  padding-left: 115px;
+}
+.authorship .info h1{
+  font-size: 1.5em; line-height: 1.25;
+}
+.authorship .info a{
+  font-size: 0.875em;
+}
+
 /* Custom Responsive */
 @media (max-width: 930px) {
   .loop-posts .post { width: 100%; display: block; }
@@ -206,6 +228,8 @@ aside.social {
 }
 @media (max-width: 767px) {
   #content { padding-left: 0; padding-right: 0; }
+  .authorship img{ display: none; }
+  .authorship .info{ padding-left: 0; }
 }
 @media (max-width: 500px) {
   #carousel .slide hgroup h1 a { width: 350px; }

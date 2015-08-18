@@ -27,6 +27,19 @@
               <?php the_category(', ') ?>
             </span>
           </div>
+          <div class="authorship">
+            <?php echo get_avatar( get_the_author_meta( 'user_email' ), 90 ); ?>
+            <div class="info">
+              <h1><?php the_author_meta('display_name'); ?></h1>
+              <p><?php the_author_meta('description'); ?></p>
+              <?php 
+                global $user_ID;
+                if ( get_the_author_meta('user_url',$user_ID) ) :
+              ?>
+              <p><i class="fa fa-user"></i> <a href="<?php the_author_meta('user_url'); ?>" target="_blank">Veja o perfil completo</a></p>
+              <?php endif; ?>
+            </div>
+          </div>          
         </article>
         <?php if ( comments_open() || get_comments_number() ) { comments_template(); } ?>
       <?php endwhile; else : ?>
