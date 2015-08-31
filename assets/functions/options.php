@@ -101,7 +101,7 @@ function theme_options_do_page() {
           </td>
         </tr>
 
-        <tr valign="top"><th scope="row"><?php _e( 'Feedburner - Usuário', 'wptheme-rdblog' ); ?></th>
+        <tr valign="top"><th scope="row"><?php _e( 'Feedburner - Endereço Feed', 'wptheme-rdblog' ); ?></th>
           <td>
             <input id="rd-mkt_theme_options[webprofile_feedburner]" class="regular-text" type="text" name="rd-mkt_theme_options[webprofile_feedburner]" placeholder="<?php esc_attr_e( $default_options['webprofile_feedburner'] ); ?>" value="<?php esc_attr_e( ($options['options_edited'] != 'true') ? $default_options['webprofile_feedburner'] : $options['webprofile_feedburner'] ); ?>" />
           </td>
