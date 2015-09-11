@@ -4,11 +4,18 @@ require_once dirname( __FILE__ ) . '/plugin-activation.php';
 
 add_action( 'tgmpa_register', 'my_theme_register_required_plugins' );
 function my_theme_register_required_plugins() {
-    $plugins = [ 
-        [   
+    $plugins = [
+        [
             'name'               => 'Google Analytics',
             'slug'               => 'google-analytics-for-wordpress',
             'filename'           => 'googleanalytics.php',
+            'required'           => true,
+            'force_activation'   => true,
+        ],
+        [
+            'name'               => 'Integração RD Station',
+            'slug'               => 'integracao-rd-station',
+            'filename'           => 'rdstation-wp.php',
             'required'           => true,
             'force_activation'   => true,
         ],
