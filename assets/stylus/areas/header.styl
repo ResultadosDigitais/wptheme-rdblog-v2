@@ -3,18 +3,25 @@
   if bg-top is defined
     background url(bg-top) repeat
   else
-    background-color #fff 
+    background-color #fff
   #primary-nav
     ul
       li
-        background-color default-color 
-        border-radius 5px
+        background-color default-color
         transition .2s all
+        ul
+          display none
         a
           color #fff
         &:hover
-          background-color secondary-color 
-            
+          background-color secondary-color
+          ul
+            display block
+            position absolute
+            border-top 1px solid content-color
+            li
+              display block
+              text-align left
 
 #about-subscribe
   background-color #fff
@@ -24,7 +31,7 @@
 #headline
   background default-color
   h3
-    color #FFF 
+    color #FFF
     font-size 1.5em
 
 .blog-post
