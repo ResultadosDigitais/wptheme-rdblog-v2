@@ -17,7 +17,7 @@ h3 {
   font-size: 1.35em;
 }
 #top-header {
-  border-bottom: 2px solid #d1d3d4;
+  border-bottom: 2px solid #ff0000;
   background: url("../images/bg_construir.png") repeat;
 }
 #top-header #primary-nav ul li {
@@ -51,6 +51,7 @@ h3 {
 }
 #about-subscribe h2 {
   color: #6b6b6b;
+  text-align: left !important;
 }
 #headline {
   background: #1c5083;
@@ -61,6 +62,9 @@ h3 {
 }
 .blog-post h1 {
   color: #999;
+}
+.blog-post h1 a {
+  color: #5a5a5a;
 }
 .blog-post .post-meta {
   color: #aaa;
@@ -77,7 +81,7 @@ h3 {
   color: #6b6b6b;
 }
 .read-more {
-  background-color: #E2001A;
+  background-color: #ff0000;
   color: #fff;
   -webkit-transition: 0.2s all;
   -moz-transition: 0.2s all;
@@ -92,7 +96,7 @@ footer #bottom-footer {
   background-color: #27282c;
 }
 footer #top-footer {
-  background-color: #888;
+  background-color: #414141;
   color: #fff;
 }
 footer #top-footer h3,
@@ -147,7 +151,7 @@ body {
   color: #fff;
 }
 input[type="submit"] {
-  background-color: #E2001A;
+  background-color: #ff0000;
   color: #fff;
 }
 input[type="submit"]:hover {
