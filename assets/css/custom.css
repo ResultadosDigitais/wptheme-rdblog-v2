@@ -5,7 +5,7 @@ h4 {
   color: #4b4b4b;
 }
 a {
-  color: #f06e00;
+  color: #000;
 }
 h1 {
   font-size: 2em;
@@ -17,22 +17,25 @@ h3 {
   font-size: 1.35em;
 }
 #top-header {
-  border-bottom: 2px solid #1c5083;
-  background: url("../images/bg_construir.png") repeat;
+  border-bottom: 2px solid #f79900;
+  background: url("") repeat;
 }
 #top-header #primary-nav ul li {
-  background-color: #1c5083;
+  background-color: #f79900;
   -webkit-transition: 0.2s all;
   -moz-transition: 0.2s all;
   -o-transition: 0.2s all;
   -ms-transition: 0.2s all;
   transition: 0.2s all;
 }
+#top-header #primary-nav ul li ul {
+  display: none;
+}
 #top-header #primary-nav ul li a {
   color: #fff;
 }
 #top-header #primary-nav ul li:hover {
-  background-color: #f06e00;
+  background-color: #000;
 }
 #top-header #primary-nav ul li:hover ul {
   display: block;
@@ -43,9 +46,6 @@ h3 {
   display: block;
   text-align: left;
 }
-#top-header #primary-nav ul li ul {
-  display: none;
-}
 #about-subscribe {
   background-color: #fff;
 }
@@ -53,14 +53,14 @@ h3 {
   color: #6b6b6b;
 }
 #headline {
-  background: #1c5083;
+  background: #f79900;
 }
 #headline h3 {
   color: #fff;
   font-size: 1.5em;
 }
 .blog-post h1 {
-  color: #f06e00;
+  color: #000;
 }
 .blog-post .post-meta {
   color: #aaa;
@@ -77,7 +77,7 @@ h3 {
   color: #6b6b6b;
 }
 .read-more {
-  background-color: #1c5083;
+  background-color: #f79900;
   color: #fff;
   -webkit-transition: 0.2s all;
   -moz-transition: 0.2s all;
@@ -86,13 +86,13 @@ h3 {
   transition: 0.2s all;
 }
 .read-more:hover {
-  background-color: #f06e00;
+  background-color: #000;
 }
 footer #bottom-footer {
   background-color: #27282c;
 }
 footer #top-footer {
-  background-color: #1c5083;
+  background-color: #f79900;
   color: #fff;
 }
 footer #top-footer h3,
@@ -100,35 +100,35 @@ footer #top-footer a {
   color: #fff;
 }
 footer #top-footer #social-icons li a {
-  background-color: #1c5083;
+  background-color: #f79900;
 }
 footer #top-footer #social-icons li a:hover {
-  color: #f06e00;
+  color: #000;
 }
 #scroll-top input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #f79900;
   color: #fff;
 }
 #scroll-top input[type="submit"]:hover {
   background-color: #177c90;
 }
 #scroll-top a:hover {
-  background-color: #1c5083;
+  background-color: #f79900;
   color: #fff;
 }
 #comments .comment-form input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #f79900;
   color: #fff;
 }
 #comments .comment-form input[type="submit"]:hover {
-  background-color: #f06e00;
+  background-color: #000;
 }
 #comments .comment-reply-link {
-  background-color: #1c5083;
+  background-color: #f79900;
   color: #fff;
 }
 #comments .comment-reply-link:hover {
-  background-color: #f06e00;
+  background-color: #000;
 }
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -138,21 +138,22 @@ body {
 }
 /* Scroll to top */
 #scroll-top a {
-  background: #f06e00;
+  border: 1px solid #000;
+  background-color: default-color-color;
 }
 #scroll-top a i {
-  color: #fff;
+  color: #000;
 }
 #scroll-top a:hover {
-  background-color: #20819a;
+  background-color: #000 !important;
 }
 #scroll-top a:hover i {
   color: #fff;
 }
 input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #f79900;
   color: #fff;
 }
 input[type="submit"]:hover {
-  background-color: #f06e00;
+  background-color: #000;
 }
