@@ -16,6 +16,7 @@
 }
 
 @media (max-width: 767px) {
+  #top-header #primary-nav { padding: 0; margin-bottom: 20px; }
   .wpcf7 input[type="text"], .wpcf7 input[type="search"], .wpcf7 input[type="email"] , .wpcf7 textarea { width: 100%; }
   .search-form label { width: 58% !important; }
   .search-form input { width: 40% !important; }
