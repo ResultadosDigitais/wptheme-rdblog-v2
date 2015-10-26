@@ -1,3 +1,6 @@
+body {
+  background: #fafafa;
+}
 h1,
 h2,
 h3,
@@ -5,7 +8,7 @@ h4 {
   color: #4b4b4b;
 }
 a {
-  color: #f06e00;
+  color: #c2272f;
 }
 h1 {
   font-size: 2em;
@@ -16,11 +19,8 @@ h2 {
 h3 {
   font-size: 1.35em;
 }
-#top-header {
-  border-bottom: 2px solid #1c5083;
-}
 #top-header #primary-nav ul li a {
-  background-color: #1c5083;
+  background-color: #c2272f;
   color: #fff;
   -webkit-transition: 0.2s all;
   -moz-transition: 0.2s all;
@@ -29,7 +29,7 @@ h3 {
   transition: 0.2s all;
 } 
 #top-header #primary-nav ul li a:hover {
-  background-color: #f06e00;
+  background-color: #c2272f;
 }
 #top-header #primary-nav ul li a:hover ul {
   display: block;
@@ -44,20 +44,20 @@ h3 {
   display: none;
 }
 #about-subscribe {
-  background-color: #fff;
+  background-color: #c2272f;
 }
 #about-subscribe h2 {
-  color: #6b6b6b;
+  color: #FFF;
 }
 #headline {
-  background: #1c5083;
+  background: #c2272f;
 }
 #headline h3 {
   color: #fff;
   font-size: 1.5em;
 }
 .blog-post h1 {
-  color: #f06e00;
+  color: #c2272f;
 }
 .blog-post .post-meta {
   color: #aaa;
@@ -74,7 +74,7 @@ h3 {
   color: #6b6b6b;
 }
 .read-more {
-  background-color: #1c5083;
+  background-color: #c2272f;
   color: #fff;
   -webkit-transition: 0.2s all;
   -moz-transition: 0.2s all;
@@ -83,13 +83,14 @@ h3 {
   transition: 0.2s all;
 }
 .read-more:hover {
-  background-color: #f06e00;
+  background-color: #c2272f;
 }
 footer #bottom-footer {
   background-color: #27282c;
+  color: #FFF;
 }
 footer #top-footer {
-  background-color: #1c5083;
+  background-color: #c2272f;
   color: #fff;
 }
 footer #top-footer h3,
@@ -97,35 +98,35 @@ footer #top-footer a {
   color: #fff;
 }
 footer #top-footer #social-icons li a {
-  background-color: #1c5083;
+  background-color: #c2272f;
 }
 footer #top-footer #social-icons li a:hover {
-  color: #f06e00;
+  color: #E6565E;
 }
 #scroll-top input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #E6565E;
   color: #fff;
 }
 #scroll-top input[type="submit"]:hover {
-  background-color: #177c90;
+  background-color: #6F292D;
 }
 #scroll-top a:hover {
-  background-color: #1c5083;
+  background-color: #6F292D;
   color: #fff;
 }
 #comments .comment-form input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #c2272f;
   color: #fff;
 }
 #comments .comment-form input[type="submit"]:hover {
-  background-color: #f06e00;
+  background-color: #c2272f;
 }
 #comments .comment-reply-link {
-  background-color: #1c5083;
+  background-color: #c2272f;
   color: #fff;
 }
 #comments .comment-reply-link:hover {
-  background-color: #f06e00;
+  background-color: #c2272f;
 }
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -135,21 +136,21 @@ body {
 }
 /* Scroll to top */
 #scroll-top a {
-  background: #f06e00;
+  background: #E6565E;
 }
 #scroll-top a i {
   color: #fff;
 }
 #scroll-top a:hover {
-  background-color: #20819a;
+  background-color: #6F292D;
 }
 #scroll-top a:hover i {
   color: #fff;
 }
 input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #c2272f;
   color: #fff;
 }
 input[type="submit"]:hover {
-  background-color: #f06e00;
+  background-color: #c2272f;
 }
