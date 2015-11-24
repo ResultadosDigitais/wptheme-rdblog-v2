@@ -38,4 +38,5 @@
   footer .copyright {
   	text-align: center !important;
   }
+  #top-header { height: auto; }
 }
