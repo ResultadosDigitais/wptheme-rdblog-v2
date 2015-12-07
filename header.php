@@ -8,11 +8,7 @@
   <meta name="viewport" content="width=device-width, user-scalable=no">
   <?php wp_head(); ?>
 
-  <?php if ( is_option_setted('webprofile_feedburner') ) { ?>
-    <link rel="alternate" type="application/rss+xml" title="Feed RSS" href="http://feeds.feedburner.com/<?php theme_webprofile_feedburner(); ?>" />
-  <?php } else { ?>
-    <link rel="alternate" type="application/rss+xml" title="Feed RSS" href="<?php bloginfo('rss2_url'); ?>" />
-  <?php } ?>
+  <link rel="alternate" type="application/rss+xml" title="Feed RSS" href="<?php bloginfo('rss2_url'); ?>" />
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
@@ -91,22 +87,12 @@
 
   <section id="about-subscribe">
     <div class="container">
-      <?php if ( is_option_setted('webprofile_feedburner') ) { ?>
-        <div class="pure-g-r feedburner-area">
+      <?php if ( is_option_setted('webprofile_form') ) { ?>
+        <div class="pure-g-r newsletter-area">
           <div class="pure-u-2-3">
             <div class="l-box">
               <h2><?php if ( is_option_setted('header_desc') ) { theme_header_desc(); } ?></h2>
             </div>
-          </div>
-          <div class="pure-u-1-3">
-            <h3>Assine nossos posts</h3>
-            <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=<?php theme_webprofile_feedburner(); ?>', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-              <p>
-                <input type="text" placeholder="Endereço de email" name="email"/>
-                <input type="submit" value="Enviar"/>
-                <input type="hidden" value="<?php theme_webprofile_feedburner(); ?>" name="uri"/><input type="hidden" name="loc" value="pt_BR"/>
-              </p>
-            </form>
           </div>
         </div>
       <?php } else { ?>

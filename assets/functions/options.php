@@ -34,7 +34,7 @@ function theme_options_do_page() {
           'webprofile_twitter' => '',
           'webprofile_facebook' => '',
           'webprofile_linkedin_id' => '',
-          'webprofile_feedburner' => '',
+          'webprofile_form' => '',
           'url_social_facebook' => 'http://facebook.com/',
           'url_social_twitter' => 'http://twitter.com/',
           'url_social_gplus' => '',
@@ -101,9 +101,9 @@ function theme_options_do_page() {
           </td>
         </tr>
 
-        <tr valign="top"><th scope="row"><?php _e( 'Feedburner - Endereço Feed', 'wptheme-rdblog' ); ?></th>
+        <tr valign="top"><th scope="row"><?php _e( 'Código do Formulário', 'wptheme-rdblog' ); ?></th>
           <td>
-            <input id="rd-mkt_theme_options[webprofile_feedburner]" class="regular-text" type="text" name="rd-mkt_theme_options[webprofile_feedburner]" placeholder="<?php esc_attr_e( $default_options['webprofile_feedburner'] ); ?>" value="<?php esc_attr_e( ($options['options_edited'] != 'true') ? $default_options['webprofile_feedburner'] : $options['webprofile_feedburner'] ); ?>" />
+            <input id="rd-mkt_theme_options[webprofile_form]" class="regular-text" type="text" name="rd-mkt_theme_options[webprofile_form]" placeholder="<?php esc_attr_e( $default_options['webprofile_form'] ); ?>" value="<?php esc_attr_e( ($options['options_edited'] != 'true') ? $default_options['webprofile_form'] : $options['webprofile_form'] ); ?>" />
           </td>
         </tr>
       </table>

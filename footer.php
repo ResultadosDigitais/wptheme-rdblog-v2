@@ -45,11 +45,7 @@
                 <li><a href="<?php theme_url_social_instagram(); ?>" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
               <?php } ?>
 
-              <?php if ( is_option_setted('webprofile_feedburner') ) { ?>
-                <li><a href="http://feeds.feedburner.com/<?php theme_webprofile_feedburner(); ?>" class="rss-icon" target="_blank"><i class="fa fa-rss-square"></i></a></li>
-              <?php } else { ?>
-                <li><a href="<?php bloginfo('rss2_url'); ?>" class="rss-icon" target="_blank"><i class="fa fa-rss-square"></i></a></li>
-              <?php } ?>
+              <li><a href="<?php bloginfo('rss2_url'); ?>" class="rss-icon" target="_blank"><i class="fa fa-rss-square"></i></a></li>
 
               <?php if ( is_option_setted('url_social_mail') ) { ?>
                 <li><a href="mailto:<?php theme_url_social_mail(); ?>"><i class="fa fa-envelope"></i></a></li>
