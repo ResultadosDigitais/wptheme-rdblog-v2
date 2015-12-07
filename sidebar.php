@@ -1,14 +1,11 @@
 <div id="sidebar" class="pure-u-1-3">
-  <?php if ( is_archive() || is_search() && is_option_setted('webprofile_feedburner') ) { ?>
+  <?php if ( is_option_setted('webprofile_form') ) { ?>
     <div class="white-container sidebar-widget">
       <h3>Assine nossos posts</h3>
-      <form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=<?php theme_webprofile_feedburner(); ?>', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-        <p>
-          <input type="text" placeholder="Endereço de email" name="email"/>
-          <input type="submit" value="Enviar"/>
-          <input type="hidden" value="<?php theme_webprofile_feedburner(); ?>" name="uri"/><input type="hidden" name="loc" value="pt_BR"/>
-        </p>
-      </form>
+      <?php
+        $form_id = theme_webprofile_form(false);
+        echo do_shortcode('[contact-form-7 id="'.$form_id.'" title="Newsletter"]');
+      ?>
     </div>
   <?php } ?>
   <?php if ( is_option_setted('webprofile_twitter') || is_option_setted('webprofile_facebook') || is_option_setted('webprofile_gplus_id') || is_option_setted('webprofile_linkedin_id') ) { ?>

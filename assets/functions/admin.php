@@ -50,9 +50,9 @@ if (!function_exists('theme_webprofile_gplus_id')) {
   }
 }
 
-if (!function_exists('theme_webprofile_feedburner')) {
-  function theme_webprofile_feedburner($_echo = true) {
-    get_theme_option('webprofile_feedburner', $_echo);
+if (!function_exists('theme_webprofile_form')) {
+  function theme_webprofile_form($_echo = true) {
+    get_theme_option('webprofile_form', $_echo);
   }
 }
 
