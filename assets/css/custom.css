@@ -5,7 +5,13 @@ h4 {
   color: #4b4b4b;
 }
 a {
-  color: #f06e00;
+  color: #0067ac;
+  text-decoration: none;
+}
+.blog-post h1 a:hover,
+a:hover {
+  text-decoration: none;
+  color: #4B4B4C;
 }
 h1 {
   font-size: 2em;
@@ -17,19 +23,44 @@ h3 {
   font-size: 1.35em;
 }
 #top-header {
-  border-bottom: 2px solid #1c5083;
+  border-bottom: 1px solid #eaeaea;
 }
-#top-header #primary-nav ul li a {
-  background-color: #1c5083;
+#top-header .container {
+    padding: 15px 0 5px;
+}
+#top-header #primary-nav {
+  margin-top: 24px;
+}
+#top-header #primary-nav ul li.current_page_item a {
+  background-color: #0067ac;
   color: #fff;
   -webkit-transition: 0.2s all;
   -moz-transition: 0.2s all;
   -o-transition: 0.2s all;
   -ms-transition: 0.2s all;
   transition: 0.2s all;
-} 
+  border-radius: 2px;
+  text-decoration: none;
+  text-transform: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+#top-header #primary-nav ul li a {
+  text-decoration: none;
+  text-transform: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-left: 10px;
+  background: none;
+  color: #0067ac
+}
+
 #top-header #primary-nav ul li a:hover {
-  background-color: #f06e00;
+  background-color: #0067ac;
+  border-radius: 2px;
+  color: #fff;
 }
 #top-header #primary-nav ul li a:hover ul {
   display: block;
@@ -50,14 +81,30 @@ h3 {
   color: #6b6b6b;
 }
 #headline {
-  background: #1c5083;
+  background: #0067ac;
 }
 #headline h3 {
   color: #fff;
   font-size: 1.5em;
 }
+.sidebar-widget.white-container {
+  border: none;
+}
+.sidebar-widget h3 {
+  border-top: 2px solid #4B4B4C;
+  padding-top: 20px;
+  width: auto;
+  display: inline-block;
+  padding-bottom: 10px;
+  font-size: 1.2em;
+}
 .blog-post h1 {
-  color: #f06e00;
+  color: #1f1a17;
+  margin-bottom: 20px;
+  line-height: 1.3em;
+  font-size: 2em;
+  text-transform: none;
+  font-weight: normal;
 }
 .blog-post .post-meta {
   color: #aaa;
@@ -74,7 +121,7 @@ h3 {
   color: #6b6b6b;
 }
 .read-more {
-  background-color: #1c5083;
+  background-color: #0067ac;
   color: #fff;
   -webkit-transition: 0.2s all;
   -moz-transition: 0.2s all;
@@ -83,49 +130,57 @@ h3 {
   transition: 0.2s all;
 }
 .read-more:hover {
-  background-color: #f06e00;
+  background-color: #1f1a17;
+  color: #FFFFFF;
+}
+.loop-posts .blog-post .read-more {
+  font-size: .7em;
+  padding: 10px;
+  display: inline;
+  float: right;
 }
 footer #bottom-footer {
   background-color: #27282c;
 }
 footer #top-footer {
-  background-color: #1c5083;
+  background-color: #0067ac;
   color: #fff;
+  padding: 10px 0;
 }
 footer #top-footer h3,
 footer #top-footer a {
   color: #fff;
 }
 footer #top-footer #social-icons li a {
-  background-color: #1c5083;
+  background-color: #0067ac;
 }
 footer #top-footer #social-icons li a:hover {
-  color: #f06e00;
+  color: #1f1a17;
 }
 #scroll-top input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #0067ac;
   color: #fff;
 }
 #scroll-top input[type="submit"]:hover {
   background-color: #177c90;
 }
 #scroll-top a:hover {
-  background-color: #1c5083;
+  background-color: #0067ac;
   color: #fff;
 }
 #comments .comment-form input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #0067ac;
   color: #fff;
 }
 #comments .comment-form input[type="submit"]:hover {
-  background-color: #f06e00;
+  background-color: #1f1a17;
 }
 #comments .comment-reply-link {
-  background-color: #1c5083;
+  background-color: #0067ac;
   color: #fff;
 }
 #comments .comment-reply-link:hover {
-  background-color: #f06e00;
+  background-color: #1f1a17;
 }
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -135,7 +190,7 @@ body {
 }
 /* Scroll to top */
 #scroll-top a {
-  background: #f06e00;
+  background: #1f1a17;
 }
 #scroll-top a i {
   color: #fff;
@@ -147,9 +202,19 @@ body {
   color: #fff;
 }
 input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #0067ac;
   color: #fff;
 }
 input[type="submit"]:hover {
-  background-color: #f06e00;
+  background-color: #1f1a17;
+}
+
+.blog-post.white-container {
+  border: none;
+  padding: 0 15px 50px;
+  margin-bottom: 50px;
+  border-bottom: 3px solid #eaeaea;
+}
+footer .copyright {
+  color: #999999
 }
