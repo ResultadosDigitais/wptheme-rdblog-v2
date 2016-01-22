@@ -5,7 +5,7 @@ h4 {
   color: #4b4b4b;
 }
 a {
-  color: #f06e00;
+  color: #e07d27;
 }
 h1 {
   font-size: 2em;
@@ -17,47 +17,50 @@ h3 {
   font-size: 1.35em;
 }
 #top-header {
-  border-bottom: 2px solid #1c5083;
+  border-bottom: 2px solid #0696a6;
+  background: url("") repeat;
 }
-#top-header #primary-nav ul li a {
-  background-color: #1c5083;
-  color: #fff;
+#top-header #primary-nav ul li {
+  background-color: #0696a6;
   -webkit-transition: 0.2s all;
   -moz-transition: 0.2s all;
   -o-transition: 0.2s all;
   -ms-transition: 0.2s all;
   transition: 0.2s all;
-} 
-#top-header #primary-nav ul li a:hover {
-  background-color: #f06e00;
-}
-#top-header #primary-nav ul li a:hover ul {
-  display: block;
-  position: absolute;
-  border-top: 1px solid #8ba8c4;
-}
-#top-header #primary-nav ul li a:hover ul li {
-  display: block;
-  text-align: left;
 }
 #top-header #primary-nav ul li ul {
   display: none;
+}
+#top-header #primary-nav ul li a {
+  color: #fff;
+}
+#top-header #primary-nav ul li:hover {
+  background-color: #e07d27;
+}
+#top-header #primary-nav ul li:hover ul {
+  display: block;
+  position: absolute;
+  border-top: 1px solid #e07d27;
+}
+#top-header #primary-nav ul li:hover ul li {
+  display: block;
+  text-align: left;
 }
 #about-subscribe {
   background-color: #fff;
 }
 #about-subscribe h2 {
-  color: #6b6b6b;
+  color: #e07d27;
 }
 #headline {
-  background: #1c5083;
+  background: #0696a6;
 }
 #headline h3 {
   color: #fff;
   font-size: 1.5em;
 }
 .blog-post h1 {
-  color: #f06e00;
+  color: #e07d27;
 }
 .blog-post .post-meta {
   color: #aaa;
@@ -71,10 +74,10 @@ h3 {
 }
 .post-date {
   background: #eaeaea;
-  color: #6b6b6b;
+  color: #e07d27;
 }
 .read-more {
-  background-color: #1c5083;
+  background-color: #0696a6;
   color: #fff;
   -webkit-transition: 0.2s all;
   -moz-transition: 0.2s all;
@@ -83,13 +86,13 @@ h3 {
   transition: 0.2s all;
 }
 .read-more:hover {
-  background-color: #f06e00;
+  background-color: #e07d27;
 }
 footer #bottom-footer {
   background-color: #27282c;
 }
 footer #top-footer {
-  background-color: #1c5083;
+  background-color: #0696a6;
   color: #fff;
 }
 footer #top-footer h3,
@@ -97,35 +100,35 @@ footer #top-footer a {
   color: #fff;
 }
 footer #top-footer #social-icons li a {
-  background-color: #1c5083;
+  background-color: #0696a6;
 }
 footer #top-footer #social-icons li a:hover {
-  color: #f06e00;
+  color: #e07d27;
 }
 #scroll-top input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #0696a6;
   color: #fff;
 }
 #scroll-top input[type="submit"]:hover {
   background-color: #177c90;
 }
 #scroll-top a:hover {
-  background-color: #1c5083;
+  background-color: #0696a6;
   color: #fff;
 }
 #comments .comment-form input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #0696a6;
   color: #fff;
 }
 #comments .comment-form input[type="submit"]:hover {
-  background-color: #f06e00;
+  background-color: #e07d27;
 }
 #comments .comment-reply-link {
-  background-color: #1c5083;
+  background-color: #0696a6;
   color: #fff;
 }
 #comments .comment-reply-link:hover {
-  background-color: #f06e00;
+  background-color: #e07d27;
 }
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -135,7 +138,7 @@ body {
 }
 /* Scroll to top */
 #scroll-top a {
-  background: #f06e00;
+  background: #e07d27;
 }
 #scroll-top a i {
   color: #fff;
@@ -147,9 +150,9 @@ body {
   color: #fff;
 }
 input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #0696a6;
   color: #fff;
 }
 input[type="submit"]:hover {
-  background-color: #f06e00;
+  background-color: #e07d27;
 }
