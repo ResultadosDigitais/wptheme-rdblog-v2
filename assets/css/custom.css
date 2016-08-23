@@ -182,3 +182,14 @@ input[type="submit"]:hover {
 #comments .comment-form input[type="submit"]:hover {
   background-color: #9cc443;
 }
+#comments .comment .comment-meta {
+  background-color: transparent;
+  border: 0;
+}
+.white-container blockquote {
+  background-color: #16272c;
+  border-left: 10px solid #da9c1c;
+}
+blockquote:before {
+  color: #da9c1c;
+}
