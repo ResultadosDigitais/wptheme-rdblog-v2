@@ -2,10 +2,10 @@ h1,
 h2,
 h3,
 h4 {
-  color: #4b4b4b;
+  color: #afad9e;
 }
 a {
-  color: #f06e00;
+  color: #da9c1c;
 }
 h1 {
   font-size: 2em;
@@ -17,47 +17,50 @@ h3 {
   font-size: 1.35em;
 }
 #top-header {
-  border-bottom: 2px solid #1c5083;
+  border-bottom: 2px solid #7b694e;
+  background: url("../images/bg_construir.png") repeat;
 }
-#top-header #primary-nav ul li a {
-  background-color: #1c5083;
-  color: #fff;
+#top-header #primary-nav ul li {
+  background-color: #7b694e;
   -webkit-transition: 0.2s all;
   -moz-transition: 0.2s all;
   -o-transition: 0.2s all;
   -ms-transition: 0.2s all;
   transition: 0.2s all;
-} 
-#top-header #primary-nav ul li a:hover {
-  background-color: #f06e00;
-}
-#top-header #primary-nav ul li a:hover ul {
-  display: block;
-  position: absolute;
-  border-top: 1px solid #8ba8c4;
-}
-#top-header #primary-nav ul li a:hover ul li {
-  display: block;
-  text-align: left;
 }
 #top-header #primary-nav ul li ul {
   display: none;
+}
+#top-header #primary-nav ul li a {
+  color: #fff;
+}
+#top-header #primary-nav ul li:hover {
+  background-color: #da9c1c;
+}
+#top-header #primary-nav ul li:hover ul {
+  display: block;
+  position: absolute;
+  border-top: 1px solid #afad9e;
+}
+#top-header #primary-nav ul li:hover ul li {
+  display: block;
+  text-align: left;
 }
 #about-subscribe {
   background-color: #fff;
 }
 #about-subscribe h2 {
-  color: #6b6b6b;
+  color: #afad9e;
 }
 #headline {
-  background: #1c5083;
+  background: #7b694e;
 }
 #headline h3 {
   color: #fff;
   font-size: 1.5em;
 }
 .blog-post h1 {
-  color: #f06e00;
+  color: #da9c1c;
 }
 .blog-post .post-meta {
   color: #aaa;
@@ -71,10 +74,10 @@ h3 {
 }
 .post-date {
   background: #eaeaea;
-  color: #6b6b6b;
+  color: #afad9e;
 }
 .read-more {
-  background-color: #1c5083;
+  background-color: #7b694e;
   color: #fff;
   -webkit-transition: 0.2s all;
   -moz-transition: 0.2s all;
@@ -83,13 +86,13 @@ h3 {
   transition: 0.2s all;
 }
 .read-more:hover {
-  background-color: #f06e00;
+  background-color: #da9c1c;
 }
 footer #bottom-footer {
   background-color: #27282c;
 }
 footer #top-footer {
-  background-color: #1c5083;
+  background-color: #7b694e;
   color: #fff;
 }
 footer #top-footer h3,
@@ -97,45 +100,46 @@ footer #top-footer a {
   color: #fff;
 }
 footer #top-footer #social-icons li a {
-  background-color: #1c5083;
+  background-color: #7b694e;
 }
 footer #top-footer #social-icons li a:hover {
-  color: #f06e00;
+  color: #da9c1c;
 }
 #scroll-top input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #7b694e;
   color: #fff;
 }
 #scroll-top input[type="submit"]:hover {
   background-color: #177c90;
 }
 #scroll-top a:hover {
-  background-color: #1c5083;
+  background-color: #7b694e;
   color: #fff;
 }
 #comments .comment-form input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #7b694e;
   color: #fff;
 }
 #comments .comment-form input[type="submit"]:hover {
-  background-color: #f06e00;
+  background-color: #da9c1c;
 }
 #comments .comment-reply-link {
-  background-color: #1c5083;
+  background-color: #7b694e;
   color: #fff;
 }
 #comments .comment-reply-link:hover {
-  background-color: #f06e00;
+  background-color: #da9c1c;
 }
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
-  color: #4b4b4b;
+  color: #afad9e;
   line-height: 1.7em;
+  background-color: #1d343b;
 }
 /* Scroll to top */
 #scroll-top a {
-  background: #f06e00;
+  background: #da9c1c;
 }
 #scroll-top a i {
   color: #fff;
@@ -147,9 +151,34 @@ body {
   color: #fff;
 }
 input[type="submit"] {
-  background-color: #1c5083;
+  background-color: #6c892b;
   color: #fff;
 }
 input[type="submit"]:hover {
-  background-color: #f06e00;
+  background-color: #9cc443;
+}
+.white-container {
+  background-color: transparent;
+  border: 0;
+}
+#about-subscribe {
+  background-color: transparent;
+}
+#top-header #primary-nav ul li {
+  background-color: #6c892b;
+}
+#top-header #primary-nav ul li:hover {
+  background-color: #9cc443;
+}
+.read-more {
+  background-color: #6c892b;
+}
+.read-more:hover {
+  background-color: #9cc443;
+}
+#comments .comment-form input[type="submit"] {
+  background-color: #6c892b;
+}
+#comments .comment-form input[type="submit"]:hover {
+  background-color: #9cc443;
 }

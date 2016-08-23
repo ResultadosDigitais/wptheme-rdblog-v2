@@ -7,25 +7,48 @@
 @import 'areas/buttons'
 @import 'areas/comments'
 
-body  
+body
   font-family 'Helvetica Neue', Helvetica, Arial, sans-serif
   font-size 16px
-  color #4B4B4B
+  color text-color
   line-height 1.7em
+  background-color page-background-color
 
 /* Scroll to top */
-#scroll-top 
-  a  
+#scroll-top
+  a
     background secondary-color
     i
       color #FFF
     &:hover
-      background-color #20819a 
+      background-color #20819a
       i
-        color: #FFF 
-        
+        color: #FFF
+
 input[type="submit"]
-  background-color default-color
+  background-color input-default-color
   color #fff
   &:hover
-    background-color secondary-color
+    background-color input-secondary-color
+
+.white-container
+  background-color transparent
+  border 0
+
+#about-subscribe
+  background-color transparent
+
+#top-header #primary-nav ul li
+  background-color input-default-color
+  &:hover
+    background-color input-secondary-color
+
+.read-more
+  background-color input-default-color
+  &:hover
+    background-color input-secondary-color
+
+#comments .comment-form input[type="submit"]
+  background-color input-default-color
+  &:hover
+    background-color input-secondary-color
