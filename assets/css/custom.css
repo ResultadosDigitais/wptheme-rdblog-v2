@@ -18,7 +18,7 @@ h3 {
 }
 #top-header {
   border-bottom: 2px solid #1d70b7;
-  background: url("../images/bg_construir.png") repeat;
+  background-color: #fff;
 }
 #top-header #primary-nav ul li {
   background-color: #1d70b7;
