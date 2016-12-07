@@ -5,7 +5,7 @@ h4 {
   color: #4b4b4b;
 }
 a {
-  color: #39a798;
+  color: #fb7d90;
 }
 h1 {
   font-size: 2em;
@@ -35,7 +35,7 @@ h3 {
   color: #fff;
 }
 #top-header #primary-nav ul li:hover {
-  background-color: #39a798;
+  background-color: #fb7d90;
 }
 #top-header #primary-nav ul li:hover ul {
   display: block;
@@ -60,7 +60,7 @@ h3 {
   font-size: 1.5em;
 }
 .blog-post h1 {
-  color: #39a798;
+  color: #fb7d90;
 }
 .blog-post .post-meta {
   color: #aaa;
@@ -86,7 +86,7 @@ h3 {
   transition: 0.2s all;
 }
 .read-more:hover {
-  background-color: #39a798;
+  background-color: #fb7d90;
 }
 footer #bottom-footer {
   background-color: #27282c;
@@ -103,7 +103,7 @@ footer #top-footer #social-icons li a {
   background-color: #8baeb3;
 }
 footer #top-footer #social-icons li a:hover {
-  color: #39a798;
+  color: #fb7d90;
 }
 #scroll-top input[type="submit"] {
   background-color: #8baeb3;
@@ -121,14 +121,14 @@ footer #top-footer #social-icons li a:hover {
   color: #fff;
 }
 #comments .comment-form input[type="submit"]:hover {
-  background-color: #39a798;
+  background-color: #fb7d90;
 }
 #comments .comment-reply-link {
   background-color: #8baeb3;
   color: #fff;
 }
 #comments .comment-reply-link:hover {
-  background-color: #39a798;
+  background-color: #fb7d90;
 }
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -138,7 +138,7 @@ body {
 }
 /* Scroll to top */
 #scroll-top a {
-  background: #39a798;
+  background: #fb7d90;
 }
 #scroll-top a i {
   color: #fff;
@@ -154,5 +154,5 @@ input[type="submit"] {
   color: #fff;
 }
 input[type="submit"]:hover {
-  background-color: #39a798;
+  background-color: #fb7d90;
 }
