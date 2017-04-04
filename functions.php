@@ -12,6 +12,7 @@ require_once('assets/functions/lead-conversion.php');
 require_once('assets/functions/default-functions.php');
 require_once('assets/functions/options.php');
 require_once('assets/functions/admin.php');
+require_once('assets/functions/force-plugins.php');
 
 $GLOBALS['TOKEN_RDSTATION'] = "25d8e09a62a009f8c7ddf16d8148155a";
 
